@@ -1,0 +1,515 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "9a44aa97-b3cf-467d-9692-c47c47434165": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/melange_category_offer_banner_90f65328-aeea-4f02-84c5-00b26e21f5dc.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/melange_category_offer_banner_90f65328-aeea-4f02-84c5-00b26e21f5dc.jpg"
+      }
+    },
+    "b768a024-bc47-4dd5-b0ec-1eadafcd503b": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "template--14845431677046__b768a024-bc47-4dd5-b0ec-1eadafcd503b-select-1": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 1",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "dcdaecbc-e185-4d9a-bd9e-dd2c656b9a7b": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 2",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "f160206a-54bf-4662-a8b0-c5814c0b824e": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 3",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "9be22d25-50ed-4cf0-a42c-78b277523d1d": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 4",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "6b6139e8-f982-4493-8100-3263210b9fdf": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 5",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "b96cb2be-e38f-4513-99bd-75d703bbd4ff": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.png",
+            "caption": "",
+            "title": "Collection 6",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_cJQeCw": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.webp",
+            "caption": "",
+            "title": "Collection 7",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_ADhbDi": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.webp",
+            "caption": "",
+            "title": "Collection 8",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_TKB6qQ": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43_c9701716-df35-4cbe-b969-4dc6c3a469f6.webp",
+            "caption": "",
+            "title": "Collection 9",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14845431677046__b768a024-bc47-4dd5-b0ec-1eadafcd503b-select-1",
+        "dcdaecbc-e185-4d9a-bd9e-dd2c656b9a7b",
+        "f160206a-54bf-4662-a8b0-c5814c0b824e",
+        "9be22d25-50ed-4cf0-a42c-78b277523d1d",
+        "6b6139e8-f982-4493-8100-3263210b9fdf",
+        "b96cb2be-e38f-4513-99bd-75d703bbd4ff",
+        "select_cJQeCw",
+        "select_ADhbDi",
+        "select_TKB6qQ"
+      ],
+      "settings": {
+        "uniqueclass": "offer",
+        "slider_enable": true,
+        "check": false,
+        "title": "Offers",
+        "slide_to_show": 8,
+        "slide_to_show_mob": 4,
+        "autoplay": false,
+        "autoplay_speed": 2
+      }
+    },
+    "2a8a225b-b5bb-400c-b196-10ed1109951a": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "d028049e-c89a-457d-a9ae-14f73e9abed9": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "bc0504c4-0385-4c72-9d99-22f7bf576d5a": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "64863b8b-267c-4986-b2db-ee70c70de6a9": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "ddbbc794-6186-487e-b911-e13560bcb719": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "d028049e-c89a-457d-a9ae-14f73e9abed9",
+        "bc0504c4-0385-4c72-9d99-22f7bf576d5a",
+        "64863b8b-267c-4986-b2db-ee70c70de6a9",
+        "ddbbc794-6186-487e-b911-e13560bcb719"
+      ],
+      "settings": {
+        "uniqueclass": "shop-by-age offer_cta",
+        "slider_enable": true,
+        "check": false,
+        "title": "Shop by Age",
+        "slide_to_show": 4,
+        "slide_to_show_mob": 2,
+        "autoplay": false,
+        "autoplay_speed": 2
+      }
+    },
+    "97b969b5-6ee2-4f04-a533-c9b258436fc1": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "c53408ee-6c09-4765-8fef-3f9d33bdbb2f": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "596f3601-5c2f-4910-ba6a-a07aae15cae4": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "dde03820-f728-41f6-b75d-99d89286fe37": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "46a3f308-2cd0-4a88-9ac1-13a98f80fd1e": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "f70011af-a115-44b1-8259-96b2d3c3417a": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "e52ad353-c217-400a-85ab-a667b7974ae2": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girlsv-shapedbriefscollection_52daa69f-92ec-43af-bec6-123e38619e19.jpg",
+            "caption": "",
+            "title": "0-3 MONTHS",
+            "subtitle": "",
+            "link": "shopify:\/\/collections",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "c53408ee-6c09-4765-8fef-3f9d33bdbb2f",
+        "596f3601-5c2f-4910-ba6a-a07aae15cae4",
+        "dde03820-f728-41f6-b75d-99d89286fe37",
+        "46a3f308-2cd0-4a88-9ac1-13a98f80fd1e",
+        "f70011af-a115-44b1-8259-96b2d3c3417a",
+        "e52ad353-c217-400a-85ab-a667b7974ae2"
+      ],
+      "settings": {
+        "uniqueclass": "offer_cta",
+        "slider_enable": true,
+        "check": true,
+        "bg": "shopify:\/\/shop_images\/Lilac_Circle.png",
+        "title": "Gifting for all Budgets",
+        "slide_to_show": 4,
+        "slide_to_show_mob": 2,
+        "autoplay": false,
+        "autoplay_speed": 2
+      }
+    },
+    "1bf1fd86-94d4-450d-a0ce-f278319284a3": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "template--14845431677046__1bf1fd86-94d4-450d-a0ce-f278319284a3-select-1": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_28d6497b-766d-464e-948a-ab12ba05ae67.png",
+            "caption": "GIRLS",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "button": "shop now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "template--14845431677046__1bf1fd86-94d4-450d-a0ce-f278319284a3-select-2": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_28d6497b-766d-464e-948a-ab12ba05ae67.png",
+            "caption": "BOYS",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "button": "shop now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--14845431677046__1bf1fd86-94d4-450d-a0ce-f278319284a3-select-1",
+        "template--14845431677046__1bf1fd86-94d4-450d-a0ce-f278319284a3-select-2"
+      ],
+      "settings": {
+        "uniqueclass": "shop-by-gender-wrap",
+        "slider_enable": false,
+        "check": true,
+        "bg": "shopify:\/\/shop_images\/Lilac_Circle.png",
+        "title": "Shop by Gender",
+        "slide_to_show": 4,
+        "slide_to_show_mob": 4,
+        "autoplay": false,
+        "autoplay_speed": 2
+      }
+    },
+    "2bc43756-3e2c-4c35-a4ac-125a32bc7fed": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Flash Sales\/Hot Deals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-all-bedsheets",
+        "products_to_show": 11,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ad0854a6-94b7-4bd7-8412-43087ee689ef": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "26a79359-f328-4d03-871d-c66ea81df88b": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "5bfde9dd-df8e-48bd-b049-5fd1736f6b6c": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "61479175-581b-4c6e-a965-8c0bbd91014f": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "95acde8b-3987-4477-bf85-43f12545923f": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "58b98fb0-e27d-4cc9-be5b-747afa3a33b7": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "78705953-5e04-4966-89cd-0f54597443e9": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        },
+        "7ef27fe5-2329-4d84-b3e5-d1f035f13f3b": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boysv-shapedbriefscollection_c0a9189a-e966-4dfc-95b6-2a09fca24919.jpg",
+            "caption": "",
+            "title": "Use Code : XXXX",
+            "subtitle": "Min Purchase : Rs.9,999\/-",
+            "link": "",
+            "button": "Shop Now",
+            "btnlink": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "26a79359-f328-4d03-871d-c66ea81df88b",
+        "5bfde9dd-df8e-48bd-b049-5fd1736f6b6c",
+        "61479175-581b-4c6e-a965-8c0bbd91014f",
+        "95acde8b-3987-4477-bf85-43f12545923f",
+        "58b98fb0-e27d-4cc9-be5b-747afa3a33b7",
+        "78705953-5e04-4966-89cd-0f54597443e9",
+        "7ef27fe5-2329-4d84-b3e5-d1f035f13f3b"
+      ],
+      "settings": {
+        "uniqueclass": "special_offer-wrap offer_cta",
+        "slider_enable": true,
+        "check": true,
+        "bg": "shopify:\/\/shop_images\/Sprinkles.png",
+        "title": "Special Offers",
+        "slide_to_show": 4,
+        "slide_to_show_mob": 2,
+        "autoplay": false,
+        "autoplay_speed": 2
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9a44aa97-b3cf-467d-9692-c47c47434165",
+    "b768a024-bc47-4dd5-b0ec-1eadafcd503b",
+    "2a8a225b-b5bb-400c-b196-10ed1109951a",
+    "97b969b5-6ee2-4f04-a533-c9b258436fc1",
+    "1bf1fd86-94d4-450d-a0ce-f278319284a3",
+    "2bc43756-3e2c-4c35-a4ac-125a32bc7fed",
+    "ad0854a6-94b7-4bd7-8412-43087ee689ef"
+  ]
+}

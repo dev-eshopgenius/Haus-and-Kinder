@@ -1,0 +1,127 @@
+<div class="{{ section.settings.classname }} gallery--section-wrapper gallery_section">
+  <div class="gallery--main-wrap">
+    {% if section.settings.title != blank %}
+      <div class="heading title-wrapper">
+        <h2 class="title inline-richtext h1 scroll-trigger animate--slide-in">{{ section.settings.title }}</h2>
+      </div>
+    {% endif %}
+    <div class="galleryContent--wrapper">
+      <div class="block_gallery_main   page-width">
+        {% for block in section.blocks %}
+          {% if block.type == 'galleryContent' %}
+            <div class="blocks-content content_{{ forloop.index }}">
+              {% if block.settings.block_image != blank or block.settings.mobblock_image != blank %}
+                <div class="block_image">
+                  {% if block.settings.block_image != blank %}
+                    {{
+                      block.settings.block_image
+                      | image_url: width: 440, height: 450
+                      | image_tag: class: 'for-desktop', loading: 'lazy'
+                    }}
+                  {% endif %}
+                  {% if block.settings.mobblock_image != blank %}
+                    {{
+                      block.settings.mobblock_image
+                      | image_url: width: 440, height: 450
+                      | image_tag: class: 'for-mobile', loading: 'lazy'
+                    }}
+                   {% endif %}
+                </div>
+              {% endif %}
+              {% if block.settings.block_heading != blank %}
+                <div class="block_heading">
+                  {{ block.settings.block_heading }}
+                </div>
+              {% endif %}
+              {% if block.settings.block_content != blank %}
+                <div class="block_content">
+                  {{ block.settings.block_content }}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Gallery Section",
+   "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+        {
+          "type": "select",
+          "id": "classname",
+          "options": [
+            {
+              "value": "no-any-class",
+              "label": "No Any Class"
+            },
+            {
+              "value": "gallery-column_two",
+              "label": "gallery-column_two"
+            },
+            {
+              "value":"gallery-column_three",
+              "label":"gallery-column_three"
+            },
+             {
+              "value":"gallery-column_four",
+              "label":"gallery-column_four"
+            }
+          ],
+          "default": "no-any-class",
+          "label": "Select Class"
+        },
+    {
+      "type":"text",
+      "id":"title",
+      "label":"Title"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"galleryContent",
+      "name":"Gallery Content",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"block_image",
+          "label":"Image"
+        },
+        {
+          "type":"image_picker",
+          "id":"mobblock_image",
+          "label":"Mobile Image"
+        },
+         {
+          "type":"text",
+          "id":"block_heading",
+          "label":"Heading"
+        },
+        {
+          "type":"richtext",
+          "id":"block_content",
+          "label":"Content"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Gallery",
+      "category":"gallery"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

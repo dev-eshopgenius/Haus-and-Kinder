@@ -1,0 +1,41 @@
+<div
+  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+  role="list"
+>
+  {% for block in section.blocks %}
+    {% if block.type == 'babymega_menu_prod' %}
+      {% assign bt_dwn = block.settings.menu_title_name | downcase %}
+      {% assign lt_dwn = link.title | downcase %}
+      {% if bt_dwn == lt_dwn %}
+        {% for i in (1..8) %}
+          {% capture mm_image %}image{{ i }}{% endcapture %}
+          {% capture mm_text %}text{{ i }}{% endcapture %}
+          {% capture mm_url %}url{{ i }}{% endcapture %}
+          {% assign megamenu_image = block.settings[mm_image] %}
+          {% assign megamenu_text = block.settings[mm_text] %}
+          {% assign megamenu_link = block.settings[mm_url] %}
+          {% if megamenu_image != blank or megamenu_text != blank or megamenu_link != blank %}
+            <div class="megamenu--inner-content megamenu__content{{ forloop.index }}">
+              {% if megamenu_image != blank %}
+                <a
+                  class="mega-menu__link mega-menu__link--level-2 link{% if block.type == 'babymega_menu_prod' %} mega-menu__link--active{% endif %}"
+                  href="{{megamenu_link}}"
+                  aria-current="page"
+                >
+                  <div class="mega-menu-img">
+                    {{ megamenu_image | image_url: width: 1024 | image_tag: class: 'megamenu_img', loading: 'lazy' }}
+                  </div>
+                </a>
+              {% endif %}
+              {% if megamenu_text != blank %}
+                <div class="mega-menu-text">
+                  <a href="{{ megamenu_link }}">{{ megamenu_text }}</a>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>

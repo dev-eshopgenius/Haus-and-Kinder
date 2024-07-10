@@ -1,0 +1,58 @@
+<!-- ---- free product - -->
+{%- unless cart == empty -%}
+  {% assign threshold = settings.threshold_price | times: 100 %}
+  {% assign cart_total = cart.total_price %}
+  {% assign dif = threshold | minus: cart_total %}
+  {% capture rem_price %}{{ dif | money }}{% endcapture %}
+  {% assign free_added = false %}
+  {% for item in cart.items -%}
+    {%- if item.properties.__source == 'Free gift Box' %}{% assign free_added = true %}{% endif -%}
+  {%- endfor %}
+  {% if settings['enable-get-zero'] %}
+    <div class="discount-msgg add-free--product">
+      <div class="discount-ico">
+        {{ settings.getzeroImg | image_url: width: '50' | image_tag: loading: 'lazy', class: 'getzeroImg-img' }}
+      </div>
+
+      <div class="discount-text getZerotext {% if free_added %}{% endif %}" id="getZerotext">
+        <div class="free_product_content">
+          <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+            {{ settings.getzeroHeading }}
+          </h3>
+
+          <p
+            style="color:{{settings.DisColor}};font-size:{{ settings.descfont }}px;{% if dif < 0 or free_added %}display:none{% endif %}"
+          >
+            {{ settings.getzeroText | replace: '#price#', rem_price }}
+          </p>
+
+          <div style="color:{{ settings.DisColor }};font-size:{{ settings.descfont }}px" class="success">
+            {{ settings.success_msg }}
+          </div>
+        </div>
+        <button
+          class="zero-product addProduct_btn"
+          {% if dif >= 0 or free_added %}
+            style="display:none"
+          {% endif %}
+        >
+          Add your FREE Product
+        </button>
+      </div>
+    </div>
+  {% endif %}
+{%- endunless -%}
+<!-- ----- free product -- -->
+<style>
+  .discount-text p span {
+    visibility: hidden;
+    position: absolute;
+  }
+  .getZerotext.addedProduct .success{
+    display:block;
+    font-weight: bold;
+    color: green !important;
+    line-height: 1.1;
+    margin: 10px 0;
+  }
+</style>

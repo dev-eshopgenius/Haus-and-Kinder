@@ -1,0 +1,139 @@
+<div class="imagewithlink-nav-wrapper for-mobile">
+  <div class="imagewithlink-nav-container">
+    <div class="imagewithlink-nav-content">
+      {% for block in section.blocks %}
+        {% for i in (1..5) %}
+          {% capture image %}image_{{ i }}{% endcapture %}
+          {% capture title %}title_{{ i }}{% endcapture %}
+          {% capture url %}url_{{ i }}{% endcapture %}
+          
+          <div class="content--wrap">
+          <a href="{{ block.settings[url] }}">
+            {% if block.settings[image] != blank %}
+                <div class="image">
+                    {{ block.settings[image] | image_url: width:'100' | image_tag: class:'nav_img', loading:'lazy'}}
+                </div>
+            {% endif %}
+            {% if block.settings[title] != blank %}
+              <div class="title">
+                {{ block.settings[title] }}
+              </div>
+            {% endif %}
+          </a>
+          </div>
+            
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Image links",
+"settings": [],
+"blocks":[
+{
+"type":"link",
+"name":"Link",
+"settings":[
+{
+"type":"header",
+"content":"Link 1"
+},
+{
+"type":"image_picker",
+"id":"image_1",
+"label":"Image"
+},
+{
+"type":"text",
+"id":"title_1",
+"label":"Title"
+},
+{
+"type":"url",
+"id":"url_1",
+"label":"Link"
+},
+{
+"type":"header",
+"content":"Link 2"
+},
+{
+"type":"image_picker",
+"id":"image_2",
+"label":"Image"
+},
+{
+"type":"text",
+"id":"title_2",
+"label":"Title"
+},
+{
+"type":"url",
+"id":"url_2",
+"label":"Link"
+},
+{
+"type":"header",
+"content":"Link 3"
+},
+{
+"type":"image_picker",
+"id":"image_3",
+"label":"Image"
+},
+{
+"type":"text",
+"id":"title_3",
+"label":"Title"
+},
+{
+"type":"url",
+"id":"url_3",
+"label":"Link"
+},
+{
+"type":"header",
+"content":"Link 4"
+},
+{
+"type":"image_picker",
+"id":"image_4",
+"label":"Image"
+},
+{
+"type":"text",
+"id":"title_4",
+"label":"Title"
+},
+{
+"type":"url",
+"id":"url_4",
+"label":"Link"
+},
+{
+"type":"header",
+"content":"Link 5"
+},
+{
+"type":"image_picker",
+"id":"image_5",
+"label":"Image"
+},
+{
+"type":"text",
+"id":"title_5",
+"label":"Title"
+},
+{
+"type":"url",
+"id":"url_5",
+"label":"Link"
+}
+]
+}
+]
+}
+{% endschema %}

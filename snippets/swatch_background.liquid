@@ -1,0 +1,37 @@
+{%- if name != blank -%}
+  {%- assign found_i = false -%}
+  {%- assign found_c = false -%}
+  {%- capture name_hash -%}${{ name | strip | downcase }}${%- endcapture -%}
+  {%- for i in (1..50) -%}
+    {%- capture c_name -%}cnc{{ i }}{%- endcapture -%}
+    {%- capture c_value -%}cvc{{ i }}{%- endcapture -%}
+    {%- if found_c -%}{%- break -%}{%- endif -%}
+    {%- if settings[c_name] != blank -%}
+      {%- assign c_name_splited = settings[c_name] | downcase | split: ',' -%}
+      {%- for cns in c_name_splited -%}
+        {%- capture cns_hash -%}${{ cns | strip | downcase }}${%- endcapture -%}
+        {%- if cns_hash == name_hash -%}
+          background-color: {{ settings[c_value] }};
+          {%- assign found_c = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for i in (1..30) -%}
+    {%- capture i_name -%}cni{{ i }}{%- endcapture -%}
+    {%- capture i_value -%}cvi{{ i }}{%- endcapture -%}
+    {%- if found_i -%}{%- break -%}{%- endif -%}
+    {%- if settings[i_name] != blank -%}
+      {%- assign i_name_splited = settings[i_name] | downcase | split: ',' -%}
+      {%- for ins in i_name_splited -%}
+        {%- capture ins_hash -%}${{ ins | strip | downcase }}${%- endcapture -%}
+        {%- if ins_hash == name_hash and settings[i_value] != blank -%}
+          background-image: url({{ settings[i_value] | img_url: '64x' }});
+          {%- assign found_i = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

@@ -1,0 +1,63 @@
+<div class="product-details-section ">
+  <div class="product-page__details">
+    <div class="content-wrap">
+      <div class="tabs__content rte">
+        {% if product.metafields.my_fields.product_tab_section1_image != blank
+          or product.metafields.my_fields.product_tab_section1_text != blank
+          or product.metafields.custom.product_description_image_1 != blank
+          or product.metafields.custom.product_description_image_2 != blank
+          or product.metafields.custom.product_description_image_3 != blank
+        %}
+          <div class="tab-section-1 tab-section">
+            {% if product.metafields.my_fields.product_tab_section1_image != blank %}
+              {{ product.metafields.my_fields.product_tab_section1_image | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+            {% endif %}
+
+            {% if product.metafields.custom.product_description_image_1 != blank %}
+              {{ product.metafields.custom.product_description_image_1 | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+           {% endif %}
+
+            {% if product.metafields.custom.product_description_image_2 != blank %}
+           {{ product.metafields.custom.product_description_image_2 | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+            {% endif %}
+
+            {% if product.metafields.custom.product_description_image_3 != blank %}
+             {{ product.metafields.custom.product_description_image_3 | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+           {% endif %}
+
+            {% if product.metafields.custom.product_description_image_4 != blank %}
+             {{  product.metafields.custom.product_description_image_4 | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+           {% endif %}
+
+            {% if product.metafields.custom.product_description_image_5 != blank %}
+             {{  product.metafields.custom.product_description_image_5 | image_url: width: 1024 | image_tag: loading:'lazy', class:'product_tab_section1_image' }}
+           {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Product Details Section",
+  "settings": [
+    {
+      "type":"header",
+      "content":"Content coming from Metafield"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Product Details Section",
+      "category":"Product"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

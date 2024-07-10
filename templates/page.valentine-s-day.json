@@ -1,0 +1,726 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "header_upper_mobile_AdMJQV": {
+      "type": "header-upper-mobile",
+      "settings": {
+        "classname": "",
+        "check": true,
+        "text1": "HOME",
+        "main_url": "shopify:\/\/pages\/fathers-love-sale",
+        "text2": "BABY",
+        "baby_url": "shopify:\/\/pages\/7happyhours",
+        "home_backgroundcolor": "",
+        "backgroundcolor": ""
+      }
+    },
+    "block_image_with_text_HiE9nh": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_bXtHrc": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_8.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_8.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/bestseller_bedsheets"
+          }
+        },
+        "image_with_text_NDzWwH": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_9.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_9.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/cushion-covers"
+          }
+        },
+        "image_with_text_Lb99Ug": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_12.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_12.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/curtains"
+          }
+        },
+        "image_with_text_HtKHRK": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_13.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_13.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/towels"
+          }
+        },
+        "image_with_text_hNmfgp": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_6_e7b6cb80-fa3d-4507-af7b-9d94edc6360c.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_6_e7b6cb80-fa3d-4507-af7b-9d94edc6360c.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-swaddle"
+          }
+        },
+        "image_with_text_hgppVC": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_18.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_18.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-fashion"
+          }
+        },
+        "image_with_text_Hz8KKe": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_15.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_15.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/rest-and-nest"
+          }
+        },
+        "image_with_text_j3kWJ4": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_20.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_20.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-playmat-baby"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_bXtHrc",
+        "image_with_text_NDzWwH",
+        "image_with_text_Lb99Ug",
+        "image_with_text_HtKHRK",
+        "image_with_text_hNmfgp",
+        "image_with_text_hgppVC",
+        "image_with_text_Hz8KKe",
+        "image_with_text_j3kWJ4"
+      ],
+      "settings": {
+        "classname": "home_block-wrapper",
+        "heading": "",
+        "heading_color": "#e62d65",
+        "heading_font": 27,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_link_gWDHkY": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/FLS_Main_Banner_1440x550_2.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/FLS_landing_page_banner_450x550_Dohar_GIF.gif"
+      }
+    },
+    "featured_collection_yyxVpM": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Bestseller Bedsheets",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-all-bedsheets",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "featured_collection_BHEDwA": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "King Bedsheets",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "king-size-bedsheets",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_link_blocks_Jp6HGi": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "select_qGX6WN": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1_f9ee37b0-3081-4ef1-9bd4-1500b3e8c6e1.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/cushion-covers",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_HeyVyh": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_1_b712002c-9e7a-4d1a-97fb-5a5acbae37e5.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/dohar",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_R7c9qx": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FLS_Category_Offers_1440x450_Tableware.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/pages\/tableware",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_c7c3G4": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1_a37bfa10-8b55-4dbe-99ef-75d6983be2fc.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/pages\/baby-fashion",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_iEUYgH": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1_5cd6b27b-b546-4f4a-b1e1-1ee629e63d7b.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/pages\/baby-swaddle",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "select_qGX6WN",
+        "select_HeyVyh",
+        "select_R7c9qx",
+        "select_c7c3G4",
+        "select_iEUYgH"
+      ],
+      "settings": {
+        "uniqueclass": "no-any-class",
+        "slider_enable": false,
+        "check": true,
+        "bg": "shopify:\/\/shop_images\/Untitled_design_4.gif",
+        "title": "\"Make it Special!\"",
+        "heading_color": "#8342b7",
+        "heading_font": 25,
+        "mobheading_font": 38,
+        "slide_to_show": 2,
+        "slide_to_show_mob": 1,
+        "autoplay": false,
+        "autoplay_speed": 2,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "block_image_with_text_4Vqf9A": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_4CqAfQ": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/3_524faa45-dcf7-4b48-9e73-cddb808433b4.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/3_524faa45-dcf7-4b48-9e73-cddb808433b4.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/bestseller_bedsheets"
+          }
+        },
+        "image_with_text_6TBJB7": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/4_55905eec-b407-4be4-9256-876c667d6c3c.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/4_55905eec-b407-4be4-9256-876c667d6c3c.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/bestseller_bedsheets"
+          }
+        },
+        "image_with_text_waXfyF": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/10_e98ce8cb-f4f5-4d32-8451-52f6320b85fc.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/10_e98ce8cb-f4f5-4d32-8451-52f6320b85fc.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/towels"
+          }
+        },
+        "image_with_text_fTkUnK": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/11_f1ce03a8-a620-4b32-b3df-8102385ff664.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/11_f1ce03a8-a620-4b32-b3df-8102385ff664.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/curtains"
+          }
+        },
+        "image_with_text_VCVBH7": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/7_d20bb63d-29d8-4c84-a243-31e04e54bb63.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/7_d20bb63d-29d8-4c84-a243-31e04e54bb63.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/cushion-covers"
+          }
+        },
+        "image_with_text_pJ3dGM": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_28e9e32f-ac4b-4dc0-a76a-46f80a78a3d9.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_28e9e32f-ac4b-4dc0-a76a-46f80a78a3d9.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/dohar"
+          }
+        },
+        "image_with_text_wRHc9P": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/6_f7a79cc2-b295-4b9d-91be-8dd6f37f12d3.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/6_f7a79cc2-b295-4b9d-91be-8dd6f37f12d3.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/comforters-for-double-bed"
+          }
+        },
+        "image_with_text_YfaBVa": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/9_9a38b23e-6d83-428a-a75f-01bf1f1d30eb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/9_9a38b23e-6d83-428a-a75f-01bf1f1d30eb.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/premium-fitted-bedsheet"
+          }
+        },
+        "image_with_text_CEfyFV": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/8_5d55cb20-1c7e-488d-908d-4a8ab802153e.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/8_5d55cb20-1c7e-488d-908d-4a8ab802153e.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/single-bedsheets"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_4CqAfQ",
+        "image_with_text_6TBJB7",
+        "image_with_text_waXfyF",
+        "image_with_text_fTkUnK",
+        "image_with_text_VCVBH7",
+        "image_with_text_pJ3dGM",
+        "image_with_text_wRHc9P",
+        "image_with_text_YfaBVa",
+        "image_with_text_CEfyFV"
+      ],
+      "settings": {
+        "classname": "explore-collection",
+        "heading": "Shop Home Essentials",
+        "heading_color": "#8342b7",
+        "heading_font": 26,
+        "padding_top": 28,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_link_JPEdLV": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/bestseller_bedsheets",
+        "banner": "shopify:\/\/shop_images\/MLS_Bestseller_Bedsheets_1440_x_300_px_2.gif",
+        "mobbanner": "shopify:\/\/shop_images\/MLS_Bestseller_Bedsheets_1440_x_300_px_2_fc6a98e0-87b8-46cd-8ce2-184897275877.gif"
+      }
+    },
+    "featured_collection_yNe9Je": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Shop All",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "home",
+        "products_to_show": 20,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_gznxHJ": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Tableware - New Launch",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tableware",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "block_image_with_text_NpHMqn": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_ekqzbK": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/13_795caad2-4058-4976-a1f2-54dc37ed411c.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/13_795caad2-4058-4976-a1f2-54dc37ed411c.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-swaddle"
+          }
+        },
+        "image_with_text_xjrUeX": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/14_177b92fa-fba3-41e8-ac3e-f8863b8b71db.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/14_177b92fa-fba3-41e8-ac3e-f8863b8b71db.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-fashion"
+          }
+        },
+        "image_with_text_7XTcPc": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/12_c31a6d4e-64c7-431a-b528-152faacda207.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/12_c31a6d4e-64c7-431a-b528-152faacda207.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-knitted-blanket-baby"
+          }
+        },
+        "image_with_text_i3KYgM": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/15_11ecd236-6c33-4a19-9bc1-e04c70107bbc.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/15_11ecd236-6c33-4a19-9bc1-e04c70107bbc.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/rest-and-nest"
+          }
+        },
+        "image_with_text_KJBBMU": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/19_12844442-53b0-48d6-9048-384dee875bee.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/19_12844442-53b0-48d6-9048-384dee875bee.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-gift-box"
+          }
+        },
+        "image_with_text_GWtJxL": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/16_491e5b95-20de-4972-8c30-70c60a529242.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/16_491e5b95-20de-4972-8c30-70c60a529242.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-playmat-baby"
+          }
+        },
+        "image_with_text_99rjrg": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/18_5cede5e5-698c-4ec4-abd3-edf8cc8955c5.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/18_5cede5e5-698c-4ec4-abd3-edf8cc8955c5.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-bedding-set-baby"
+          }
+        },
+        "image_with_text_ffWCnC": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/17_e6bbd63f-6b35-4454-8004-31d199aa2293.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/17_e6bbd63f-6b35-4454-8004-31d199aa2293.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-diaper-bags"
+          }
+        },
+        "image_with_text_yDtNxQ": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/20_7726f9ca-f6ab-4e9e-8f05-74f1f3f33018.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/20_7726f9ca-f6ab-4e9e-8f05-74f1f3f33018.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-swaddle"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_ekqzbK",
+        "image_with_text_xjrUeX",
+        "image_with_text_7XTcPc",
+        "image_with_text_i3KYgM",
+        "image_with_text_KJBBMU",
+        "image_with_text_GWtJxL",
+        "image_with_text_99rjrg",
+        "image_with_text_ffWCnC",
+        "image_with_text_yDtNxQ"
+      ],
+      "settings": {
+        "classname": "explore-collection",
+        "heading": "Shop Baby Essentials",
+        "heading_color": "#8342b7",
+        "heading_font": 26,
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_E87Rxf": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Shop All",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "variant-baby",
+        "products_to_show": 17,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_link_blocks_JdQW6w": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "select_kWJqRW": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_0e6f3e98-df84-4769-a084-3d1ad2234a8f.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/products\/victorian-summer-dream-pack-of-2-pillow-covers-1",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_jzNQz7": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_e9c23c4f-0dba-4d86-abf3-e9678353fd44.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/products\/pack-of-2-satin-pillow-covers-assorted-colors-grey-or-white",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_H9nhjy": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_98c09a44-2c3c-4ca8-8cdb-d5a083dd75ce.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/single-bedsheets",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_V4y9m8": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_bf80b109-535f-4fbb-85f3-2ef32de77b48.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/set-of-4-hand-towels",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_rLJKtb": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_e7c22388-8180-4a38-9e67-36ed06eb9873.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/products\/mylo-cotton-bunny-rag-doll",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_tAcPUR": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_35adeaf3-7b6b-4a47-929b-ef7741598739.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/products\/crib-cot-bunting",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "select_kWJqRW",
+        "select_jzNQz7",
+        "select_H9nhjy",
+        "select_V4y9m8",
+        "select_rLJKtb",
+        "select_tAcPUR"
+      ],
+      "settings": {
+        "uniqueclass": "offer",
+        "slider_enable": false,
+        "check": false,
+        "bg": "shopify:\/\/shop_images\/MLS-steal-deal-2024-_3.png",
+        "title": "\"Dad deserves a little extra!\"",
+        "heading_color": "#c68282",
+        "heading_font": 21,
+        "mobheading_font": 27,
+        "slide_to_show": 4,
+        "slide_to_show_mob": 1,
+        "autoplay": false,
+        "autoplay_speed": 2,
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "header_upper_mobile_AdMJQV",
+    "block_image_with_text_HiE9nh",
+    "image_with_link_gWDHkY",
+    "featured_collection_yyxVpM",
+    "featured_collection_BHEDwA",
+    "image_with_link_blocks_Jp6HGi",
+    "block_image_with_text_4Vqf9A",
+    "image_with_link_JPEdLV",
+    "featured_collection_yNe9Je",
+    "featured_collection_gznxHJ",
+    "block_image_with_text_NpHMqn",
+    "featured_collection_E87Rxf",
+    "image_with_link_blocks_JdQW6w"
+  ]
+}

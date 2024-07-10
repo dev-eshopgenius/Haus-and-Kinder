@@ -1,0 +1,295 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .section-{{ section.id }} .trending-offer-wrap h2{
+      font-size: {{ section.settings.heading_font }}px;
+    }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+  }
+    @media (max-width: 768px) {
+    .section-{{ section.id }} .trending-offer-wrap.offer-wrap h2{
+      font-size: {{ section.settings.mobheading_font }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  class="section-{{ section.id }} {{ section.settings.uniqueclass }} page-width offer-wrap trending-offer-wrap  {% if section.settings.check == true %} trending-offer-wrap-baby offer-baby-wrap {%endif %}"
+  {% if section.settings.check == true %}
+    {% if section.settings.bg != blank %}
+      style="background-image:url({{ section.settings.bg | img_url: 'master'}});"
+    {% endif %}
+  {% endif %}
+>
+  <div class="container section-{{ section.id }}-padding">
+    <div class="row">
+      <div>
+        {% unless section.settings.check == true %}
+          {% if section.settings.bg != blank %}
+            {{ section.settings.bg | image_url: width: 1024 | image_tag: loading: 'lazy', class: 'image_class' }}
+          {% endif %}
+        {% endunless %}
+      </div>
+      <div class="col-12">
+        {% if section.settings.title != blank %}
+          <h2 style="color:{{ section.settings.heading_color }};">
+            {{ section.settings.title }}
+          </h2>
+        {% endif %}
+        <div class="offers-brand-slider">
+          <div
+            class="{% if section.settings.slider_enable %}active--slider {% else %} section-without-slider{% endif %}"
+            autoplay="{{ section.settings.autoplay }}"
+            autoplay_speed="{{ section.settings.autoplay_speed | times: 1000 }}"
+            slidetoshow_desk="{{ section.settings.slide_to_show }}"
+            slidetoshow_mob="{{ section.settings.slide_to_show_mob }}"
+          >
+            {% for block in section.blocks %}
+              <div class="block--content-wrap">
+                {% if block.settings.image != blank %}
+                  <div class="block_image">
+                    {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
+                    {{ block.settings.image | image_url: width: 1024 | image_tag: class: 'image', loading: 'lazy' }}
+
+                    {% if block.settings.link != blank %}</a> {% endif %}
+                  </div>
+                {% endif %}
+                <div class="special-offers-caption">
+                  {% if block.settings.caption != blank %}
+                    <code> {{ block.settings.caption }}</code>
+                  {% endif %}
+                  {% if block.settings.title != blank %}
+                    <span>
+                      {{ block.settings.title }}
+                    </span>
+                  {% endif %}
+                  {% if block.settings.subtitle != blank %}
+                    <span>
+                      {{ block.settings.subtitle }}
+                    </span>
+                  {% endif %}
+                  {% if block.settings.button != blank %}
+                    <div class="button">
+                      <a href="{{ block.settings.btnlink }}">{{ block.settings.button }}</a>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image with Links Blocks",
+  "class":"image-with-link-blocks",
+  "settings": [
+      {
+          "type": "select",
+          "id": "uniqueclass",
+          "options": [
+            {
+              "value": "no-any-class",
+              "label": "No Any Class"
+            },
+            {
+              "value": "offer",
+              "label": "offer"
+            },
+            {
+              "value": "shop-by-age offer_cta",
+              "label": "shop-by-age offer_cta"
+            },
+            {
+              "value": "offer_cta",
+              "label": "offer_cta"
+            },
+            {
+              "value": "shop-by-gender-wrap",
+              "label": "shop-by-gender-wrap"
+            },
+            {
+              "value":"special_offer-wrap offer_cta",
+              "label":"special_offer-wrap offer_cta"
+            }
+          ],
+          "default": "no-any-class",
+          "label": "Select Class"
+        },
+    {
+      "type": "checkbox",
+      "id": "slider_enable",
+      "label": "Enable Slider",
+      "default": true
+    },
+    {
+
+      "type": "checkbox",
+      "id": "check",
+      "label": "Check for baby Design",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "Backgrond circle Image"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Heading"
+    },
+        {
+          "type":"color",
+          "id":"heading_color",
+          "label":"Heading Color",
+        "default":"#c69794"
+        },
+        {
+        "type": "range",
+        "id": "heading_font",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Font Size",
+        "default": 25
+      },
+            {
+        "type": "range",
+        "id": "mobheading_font",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile Font Size",
+        "default": 10
+      },
+    {
+      "type":"header",
+      "content":"Slider Settings..."
+    },
+    {
+      "type":"range",
+      "id":"slide_to_show",
+      "label":"Slide to show[Desktop]",
+      "min":1,
+      "max":20,
+      "default":4
+    },
+    {
+      "type":"range",
+      "id":"slide_to_show_mob",
+      "label":"Slide to show[Mobile]",
+      "min":1,
+      "max":20,
+      "default":4
+    },
+    {
+      "type":"checkbox",
+      "id":"autoplay",
+      "label":"Autoplay?"
+    },
+    {
+      "type":"range",
+      "id":"autoplay_speed",
+      "label":"Autoplay Speed",
+      "min":1,
+      "max":5,
+      "default":2,
+      "unit":"sec"
+    },
+          {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "select",
+      "name": "Add block",
+      "settings": [
+
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "id": "caption",
+            "type": "text",
+            "label": "Caption"
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "label": "Heading"
+          },
+          {
+            "id": "subtitle",
+            "type": "text",
+            "label": "SubHeading"
+          },
+
+          {
+            "id": "link",
+            "type": "url",
+            "label": "link"
+          },
+           {
+            "id": "button",
+            "type": "text",
+            "label": "Button"
+          },
+          {
+            "id": "btnlink",
+            "type": "url",
+            "label": "Button link"
+          }
+
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with link Blocks",
+      "category": "image with links",
+      "blocks": [
+        {
+          "type": "select"
+        },
+        {
+          "type": "select"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

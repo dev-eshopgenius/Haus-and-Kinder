@@ -1,0 +1,33 @@
+ <!-- START:- product banner block snippet -->
+
+{% assign coll_from = blank %}
+{% for collection in product.collections %}
+  {% if collection == block.settings.home_coll %}
+    {% assign coll_from = 'home' %}
+  {% elsif collection == block.settings.baby_coll %}
+    {% assign coll_from = 'baby' %}
+  {% endif %}
+{% endfor %}
+
+{% if coll_from == 'home' %}
+  {% assign b_linkk = block.settings.home_b_link %}
+  {% assign b_imgg = block.settings.home_b_img %}
+{% elsif coll_from == 'baby' %}
+  {% assign b_linkk = block.settings.baby_b_link %}
+  {% assign b_imgg = block.settings.baby_b_img %}
+{% endif %}
+
+{% if coll_from != blank %}
+  <div class="prod-banner_block">
+    <div class="iwt--link-wrap">
+      <a href="{{ b_linkk }}">
+        <div clas="image">
+          {{ b_imgg | image_url: width: 1024 | image_tag: loading: 'lazy', class: 'prod_b_imgg' }}
+        </div>
+      </a>
+    </div>
+  </div>
+{% endif %}
+
+
+ <!-- END:- product banner block snippet -->

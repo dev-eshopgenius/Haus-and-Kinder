@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "9b173a0b-05fe-4016-9020-71afdf2134c2": {
+      "type": "custom-page-header",
+      "blocks": {
+        "bdfc5638-0270-4461-943c-87142eb1e009": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 1: Swaddler",
+            "headingurl": "shopify:\/\/pages\/swaddler-custom"
+          }
+        },
+        "6dfcf11b-8457-42c5-9a55-0e208fcf1eed": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 2: Transitional",
+            "headingurl": "shopify:\/\/pages\/transitional-custom"
+          }
+        },
+        "79da801b-fcde-42e9-a0d7-ee6e03241a8d": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 3: Sleeping Bags",
+            "headingurl": "shopify:\/\/collections\/swaddle-packs-for-baby-boys"
+          }
+        },
+        "34fe4ccf-8ae3-4f37-9ae2-f2e9e9b8bad1": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 4: Early Walker",
+            "headingurl": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "bdfc5638-0270-4461-943c-87142eb1e009",
+        "6dfcf11b-8457-42c5-9a55-0e208fcf1eed",
+        "79da801b-fcde-42e9-a0d7-ee6e03241a8d",
+        "34fe4ccf-8ae3-4f37-9ae2-f2e9e9b8bad1"
+      ],
+      "settings": {
+      }
+    },
+    "decd05ee-8208-4764-a9bf-d40d814497c6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14845431283830__decd05ee-8208-4764-a9bf-d40d814497c6-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_26.jpg",
+            "mobimage": "shopify:\/\/shop_images\/image_26.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "7132377a-a76a-4dae-a208-17ac1434e419": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nebbwbabyUntitled-1_1.png",
+            "mobimage": "shopify:\/\/shop_images\/image_26.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14845431283830__decd05ee-8208-4764-a9bf-d40d814497c6-slide-1",
+        "7132377a-a76a-4dae-a208-17ac1434e419"
+      ],
+      "settings": {
+        "classname": "",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "815ed5c9-3bf2-452e-91ef-ce775100e3ab": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_15.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_15.jpg"
+      }
+    },
+    "4b2f7c0b-e58b-4731-9f7c-a792064d7152": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_16.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_16.jpg"
+      }
+    },
+    "785d98e5-d43b-42b7-b3f9-32e1f437dea3": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_17.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_17.jpg"
+      }
+    },
+    "b2c0254a-97c6-43d1-b64e-cccdefab3093": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_18.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_18.jpg"
+      }
+    },
+    "20273234-dbbd-4902-ae44-cbe3fa602c7c": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding dreamsack",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_4.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_4.jpg"
+      }
+    },
+    "9f9a75f3-5fa0-4761-8d43-b309437c1773": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding faq",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_20.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_20.jpg"
+      }
+    },
+    "01c004bb-542f-493f-a396-ae6a5f813a05": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_5.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_5.jpg"
+      }
+    },
+    "4e5c5b8a-2e1a-4526-8573-9aeff9237961": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_20.png",
+        "mobbanner": "shopify:\/\/shop_images\/image_20.png"
+      }
+    },
+    "c7feebad-a1fa-4e67-805c-58df7995f1a1": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_6.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_6.jpg"
+      }
+    },
+    "1a694b65-32bb-4190-8537-b5744c6044cb": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_7.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_7.jpg"
+      }
+    },
+    "a37ae1bb-cb05-480d-b394-fc32ed484f13": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_8.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_8.jpg"
+      }
+    },
+    "2ffd070a-ed29-43ab-88ce-ab6dfe16b7f7": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_9.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_9.jpg"
+      }
+    },
+    "77f3d179-8c3f-4f91-b41d-939326555a3b": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_10.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_12.png"
+      }
+    }
+  },
+  "order": [
+    "9b173a0b-05fe-4016-9020-71afdf2134c2",
+    "decd05ee-8208-4764-a9bf-d40d814497c6",
+    "815ed5c9-3bf2-452e-91ef-ce775100e3ab",
+    "4b2f7c0b-e58b-4731-9f7c-a792064d7152",
+    "785d98e5-d43b-42b7-b3f9-32e1f437dea3",
+    "b2c0254a-97c6-43d1-b64e-cccdefab3093",
+    "20273234-dbbd-4902-ae44-cbe3fa602c7c",
+    "9f9a75f3-5fa0-4761-8d43-b309437c1773",
+    "01c004bb-542f-493f-a396-ae6a5f813a05",
+    "4e5c5b8a-2e1a-4526-8573-9aeff9237961",
+    "c7feebad-a1fa-4e67-805c-58df7995f1a1",
+    "1a694b65-32bb-4190-8537-b5744c6044cb",
+    "a37ae1bb-cb05-480d-b394-fc32ed484f13",
+    "2ffd070a-ed29-43ab-88ce-ab6dfe16b7f7",
+    "77f3d179-8c3f-4f91-b41d-939326555a3b"
+  ]
+}

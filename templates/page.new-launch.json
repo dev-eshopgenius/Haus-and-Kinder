@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "539b0e17-d689-45b3-be1f-cf115e8cf7d7": {
+      "type": "collage",
+      "blocks": {
+        "template--14845431545974__539b0e17-d689-45b3-be1f-cf115e8cf7d7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cushion_cover_banners_new-02-edit.jpg"
+          }
+        },
+        "736127fc-f676-404f-854e-ca6de2113f33": {
+          "type": "collection_product",
+          "settings": {
+            "collection_prod": "cushion-covers",
+            "second_image": true,
+            "show_quick_add": true
+          }
+        },
+        "de2bd4b4-8aef-4c03-b5d2-64768b4c8535": {
+          "type": "collection_product",
+          "disabled": true,
+          "settings": {
+            "collection_prod": "cushion-covers",
+            "second_image": true,
+            "show_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14845431545974__539b0e17-d689-45b3-be1f-cf115e8cf7d7-image-1",
+        "736127fc-f676-404f-854e-ca6de2113f33",
+        "de2bd4b4-8aef-4c03-b5d2-64768b4c8535"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "9bf5cf14-0439-4acc-8ca1-57426886221f": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Holi_Menu_Banner_1_4eed4484-c545-47d6-bff8-c971043f4c71.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/FS_Menu_Banner.jpg"
+      }
+    },
+    "c8992822-0a76-473e-9610-d113c0ba9520": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "template--14845431545974__c8992822-0a76-473e-9610-d113c0ba9520-select-1": {
+          "type": "select",
+          "settings": {
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "template--14845431545974__c8992822-0a76-473e-9610-d113c0ba9520-select-2": {
+          "type": "select",
+          "settings": {
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14845431545974__c8992822-0a76-473e-9610-d113c0ba9520-select-1",
+        "template--14845431545974__c8992822-0a76-473e-9610-d113c0ba9520-select-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "uniqueclass": "",
+        "slider_enable": true,
+        "check": false,
+        "title": "",
+        "slide_to_show": 4,
+        "slide_to_show_mob": 4,
+        "autoplay": false,
+        "autoplay_speed": 2,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e0d85ab8-af79-4ef3-ba4b-f6aff71d8160": {
+      "type": "search-form",
+      "settings": {
+        "heading": "SEARCH OUR SHOP",
+        "content": "<p>We've got tons of great products.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "539b0e17-d689-45b3-be1f-cf115e8cf7d7",
+    "9bf5cf14-0439-4acc-8ca1-57426886221f",
+    "c8992822-0a76-473e-9610-d113c0ba9520",
+    "e0d85ab8-af79-4ef3-ba4b-f6aff71d8160"
+  ]
+}

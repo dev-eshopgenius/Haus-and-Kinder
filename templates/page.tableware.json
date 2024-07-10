@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_link_WtdABd": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/9-min-madness",
+        "banner": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg"
+      }
+    },
+    "block_image_with_text_YgDp3g": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_wmQabn": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/10_18adf058-861e-4a43-abfc-c237eb73aa93.png",
+            "mobblock_image": "shopify:\/\/shop_images\/10_18adf058-861e-4a43-abfc-c237eb73aa93.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/cutlery-accessories"
+          }
+        },
+        "image_with_text_UPJF9L": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/6_0e17a8b5-1e6a-479f-8105-2ba02717bc5c.png",
+            "mobblock_image": "shopify:\/\/shop_images\/6_0e17a8b5-1e6a-479f-8105-2ba02717bc5c.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/serve-ware"
+          }
+        },
+        "image_with_text_VDYFtX": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/9_100e4aab-d425-48be-a1eb-7c01be0a1de1.png",
+            "mobblock_image": "shopify:\/\/shop_images\/9_100e4aab-d425-48be-a1eb-7c01be0a1de1.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/bowls"
+          }
+        },
+        "image_with_text_4tqede": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/8_af76e7ea-0570-40fe-82ac-1f5ce1c2d5b2.png",
+            "mobblock_image": "shopify:\/\/shop_images\/8_af76e7ea-0570-40fe-82ac-1f5ce1c2d5b2.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/plates"
+          }
+        },
+        "image_with_text_i4f6pp": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_e7e0a577-5535-4bdd-aaf6-2c2a07dbbe65.png",
+            "mobblock_image": "shopify:\/\/shop_images\/5_e7e0a577-5535-4bdd-aaf6-2c2a07dbbe65.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/dinnerware"
+          }
+        },
+        "image_with_text_7mxD3b": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/7_3a262aab-82f9-495e-8578-ed1a9e05be32.png",
+            "mobblock_image": "shopify:\/\/shop_images\/7_3a262aab-82f9-495e-8578-ed1a9e05be32.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/mugs-cups"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_wmQabn",
+        "image_with_text_UPJF9L",
+        "image_with_text_VDYFtX",
+        "image_with_text_4tqede",
+        "image_with_text_i4f6pp",
+        "image_with_text_7mxD3b"
+      ],
+      "settings": {
+        "classname": "explore-collection",
+        "heading": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "featured_collection_HrqGMy": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "New Launch",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 29,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tableware",
+        "products_to_show": 20,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_link_T87eCr": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/8_4b8d65aa-a7ac-43fb-9aa4-469128d48e2a.png",
+        "mobbanner": "shopify:\/\/shop_images\/5_2dd2d0d8-c1c7-4478-81da-f47053aef52f.png"
+      }
+    },
+    "featured_collection_XmNzmP": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Wooden Collection",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 29,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "wooden-collection",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_link_UaUTxU": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/6_51168920-7a0e-4de9-96f8-a1aa7f5018d8.png",
+        "mobbanner": "shopify:\/\/shop_images\/6_51168920-7a0e-4de9-96f8-a1aa7f5018d8.png"
+      }
+    },
+    "featured_collection_zaB73b": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Ceramic Collection",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 29,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ceramic-collection",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_link_yfecXV": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/4_271ee34c-051b-4a3d-a6bc-4a6078dd6586.png",
+        "mobbanner": "shopify:\/\/shop_images\/4_271ee34c-051b-4a3d-a6bc-4a6078dd6586.png"
+      }
+    },
+    "featured_collection_6tgBUV": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Cutlery",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 29,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cutlery",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_link_WtdABd",
+    "block_image_with_text_YgDp3g",
+    "featured_collection_HrqGMy",
+    "image_with_link_T87eCr",
+    "featured_collection_XmNzmP",
+    "image_with_link_UaUTxU",
+    "featured_collection_zaB73b",
+    "image_with_link_yfecXV",
+    "featured_collection_6tgBUV"
+  ]
+}

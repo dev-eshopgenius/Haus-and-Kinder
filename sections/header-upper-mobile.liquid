@@ -1,0 +1,104 @@
+{%- style -%}
+   {% if request.path contains 'baby' %}
+     #section--{{ section.id }} .header_main_menu{ 
+       background-color:{{section.settings.backgroundcolor}}!important;
+     }
+   {% else %}
+    #section--{{ section.id }} .header_main_menu{ 
+      background-color:{{section.settings.home_backgroundcolor}} !important;
+    }
+    {% endif %}
+{%- endstyle -%}
+
+{% if section.settings.check %}
+
+    <div
+      id="section--{{ section.id }}"
+      class=" header--upperMobile-wrapper {{ section.settings.classname }} section-for-mobile"
+      {% if request.path contains 'baby' %}
+        style="background-color:{{section.settings.backgroundcolor}};"
+      {% endif %}
+    >
+      <div class="header--text--items  container">
+        {% if section.settings.text1 != blank and section.settings.main_url != blank %}
+          <div
+            data-menu="main-url"
+            class="header--main_text header_main_menu header_text {% if request.path contains 'baby' %} {% else %} active_header_menu {% endif %}"
+          >
+            <a href="{{ section.settings.main_url }}" class="main_url"> {{ section.settings.text1 }}</a>
+            <span>|</span>
+          </div>
+        {% endif %}
+        {% if section.settings.text2 != blank and section.settings.baby_url != blank %}
+          <div
+            data-menu="baby-url"
+            class=" {% if request.path contains 'baby' %}active_header_menu {% endif %} header--baby_text header_main_menu header_text"
+          >
+            <a href="{{ section.settings.baby_url }}" class="baby_url">{{ section.settings.text2 }}</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+
+{% schema %}
+{
+"name": "Header Upper Mobile",
+"settings": [
+{
+  "type":"text",
+  "id":"classname",
+  "label":"Unique ClassName"
+},
+{
+"type":"checkbox",
+"id":"check",
+"label":"Show Upper Header"
+},
+{
+"type":"text",
+"id":"text1",
+"label":"Main Text"
+},
+{
+"type":"url",
+"id":"main_url",
+"label":"Url[Main]"
+},
+{
+"type":"text",
+"id":"text2",
+"label":"Baby Text"
+},
+{
+"type":"url",
+"id":"baby_url",
+"label":"Url[Baby]"
+},
+{
+  "type": "color",
+  "id": "home_backgroundcolor",
+  "label": " Background Color[Home Page]"
+
+},
+{
+  "type": "color",
+  "id": "backgroundcolor",
+  "label": " Background Color[For Baby page]"
+
+}
+],
+  "presets":[
+    {
+      "name":"Header Upper Mobile",
+      "category":"Header"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

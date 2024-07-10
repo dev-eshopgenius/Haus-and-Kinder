@@ -1,0 +1,1016 @@
+{
+  "sections": {
+    "header_upper_mobile_bH66zP": {
+      "type": "header-upper-mobile",
+      "settings": {
+        "classname": "",
+        "check": true,
+        "text1": "HOME",
+        "main_url": "\/",
+        "text2": "BABY",
+        "baby_url": "shopify:\/\/pages\/baby",
+        "home_backgroundcolor": "rgba(0,0,0,0)",
+        "backgroundcolor": "#e24407"
+      }
+    },
+    "f299e08d-7f42-4c47-83e8-b35b48ee27f1": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "b5d2a9f2-e4ae-4c92-960d-b3ce06d136ac": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_8.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_8.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/king-size-bedsheets"
+          }
+        },
+        "image_with_text_gfFtC4": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_7.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_7.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/double-bedsheets"
+          }
+        },
+        "image_with_text_E3XT3h": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_12.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_12.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/curtains"
+          }
+        },
+        "image_with_text_RwWXYb": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_9.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_9.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/cushion-covers"
+          }
+        },
+        "image_with_text_CGBcmh": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_23.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_23.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/single-bedsheets"
+          }
+        },
+        "image_with_text_NEKA6f": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_11.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_11.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/dohar"
+          }
+        },
+        "image_with_text_i4fAfL": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_13.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_13.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/towels"
+          }
+        },
+        "image_with_text_get9x6": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_10.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_10.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/comforters-for-double-bed"
+          }
+        }
+      },
+      "block_order": [
+        "b5d2a9f2-e4ae-4c92-960d-b3ce06d136ac",
+        "image_with_text_gfFtC4",
+        "image_with_text_E3XT3h",
+        "image_with_text_RwWXYb",
+        "image_with_text_CGBcmh",
+        "image_with_text_NEKA6f",
+        "image_with_text_i4fAfL",
+        "image_with_text_get9x6"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "classname": "home_block-wrapper",
+        "heading": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "0476e9b0-810b-4071-9bf4-94ae3f5f7b90": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14778887897206__0476e9b0-810b-4071-9bf4-94ae3f5f7b90-slide-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1440-550-_2.jpg",
+            "mobimage": "shopify:\/\/shop_images\/1440-650.jpg",
+            "image_link": "shopify:\/\/pages\/bogo",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/bogo",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_GHKPGJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg",
+            "mobimage": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg",
+            "image_link": "shopify:\/\/pages\/9-min-madness",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/cushion-covers",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_69jDXr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame4.png",
+            "mobimage": "shopify:\/\/shop_images\/Frame_gradient_5.png",
+            "image_link": "shopify:\/\/collections\/cushion-covers",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/cushion-covers",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "c609cd49-21c4-497d-a003-3cab67ae1818": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550Frame_75.png",
+            "mobimage": "shopify:\/\/shop_images\/650Frame_26.png",
+            "image_link": "shopify:\/\/collections\/dohar",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/bogo",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14778887897206__0476e9b0-810b-4071-9bf4-94ae3f5f7b90-slide-1",
+        "slide_GHKPGJ",
+        "slide_69jDXr",
+        "c609cd49-21c4-497d-a003-3cab67ae1818"
+      ],
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 23,
+        "mobheading_font": 10,
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_hCfMFc": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "<strong>Tableware - New Launch<\/strong>",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tableware",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "<strong>bestsellers<\/strong>",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-all-bedsheets",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection_mDK6Mr": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Cushion Covers",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cushion-covers",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_link_gYcPHx": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/tableware",
+        "banner": "shopify:\/\/shop_images\/9_69451a59-5bdc-4ea9-aed6-df25573a8179.png",
+        "mobbanner": "shopify:\/\/shop_images\/9_69451a59-5bdc-4ea9-aed6-df25573a8179.png"
+      }
+    },
+    "featured_collection_fqVH3j": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Ceramics",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ceramic-collection",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "block_image_with_text_wcXLtB": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_6BUgkU": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_39.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_39.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/king-size-bedsheets"
+          }
+        },
+        "image_with_text_i8Gizn": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_38.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_38.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/double-bedsheets"
+          }
+        },
+        "image_with_text_B6pB6n": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_42.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_42.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/towels"
+          }
+        },
+        "image_with_text_mWLh4A": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_44_fa677d8b-b9f0-40f2-8fad-f0f359f34375.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_44_fa677d8b-b9f0-40f2-8fad-f0f359f34375.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/cushion-covers"
+          }
+        },
+        "image_with_text_7iXmz6": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_46_ec78ef68-9054-4820-89a9-0b453566c9ff.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_46_a9626864-8b72-4b32-ad36-22ff21b0a96d.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/comforters-for-double-bed"
+          }
+        },
+        "image_with_text_djwTPF": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_45.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_45.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/curtains"
+          }
+        },
+        "image_with_text_kwUXHY": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/FrameDO_47.png",
+            "mobblock_image": "shopify:\/\/shop_images\/FrameDO_47_c3250498-9fd5-4fab-ab04-0f38f92f902f.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/dohar"
+          }
+        },
+        "image_with_text_9hGggC": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_43.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_43.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/zero-twist"
+          }
+        },
+        "image_with_text_7UXKXi": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_41.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_41.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/premium-fitted-bedsheet"
+          }
+        },
+        "image_with_text_MtwrDU": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_40.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_40.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/premium-flat-bedsheet"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6BUgkU",
+        "image_with_text_i8Gizn",
+        "image_with_text_B6pB6n",
+        "image_with_text_mWLh4A",
+        "image_with_text_7iXmz6",
+        "image_with_text_djwTPF",
+        "image_with_text_kwUXHY",
+        "image_with_text_9hGggC",
+        "image_with_text_7UXKXi",
+        "image_with_text_MtwrDU"
+      ],
+      "settings": {
+        "classname": "explore-collection",
+        "heading": "Explore",
+        "heading_color": "#000000",
+        "heading_font": 28,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_XEPg3T": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "<strong>Chic Curtains<\/strong>",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "curtains",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection_gJhjR8": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "<strong>Dohars<\/strong>",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "dohar",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View all",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "1576eae5-dd04-4c88-88ba-fa0aa0f7ffd6": {
+      "type": "image-banner",
+      "settings": {
+        "classname": "col2-img-wrap",
+        "image": "shopify:\/\/shop_images\/1_5d70708e-27e6-42d7-a3de-d5d04d134832.jpg",
+        "mob_image": "shopify:\/\/shop_images\/doubleHeading.jpg",
+        "image_link": "shopify:\/\/collections\/double-bedsheets",
+        "image_2": "shopify:\/\/shop_images\/2_692d753d-d9bb-4009-a7e7-174710957f53.jpg",
+        "mobimage_2": "shopify:\/\/shop_images\/kingHeading.jpg",
+        "image_link2": "shopify:\/\/collections\/king-size-bedsheets",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "show_content": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "button_label_1": "Shop Double Size",
+        "button_link_1": "shopify:\/\/collections\/double-bedsheets",
+        "button_style_secondary_1": false,
+        "button_label_2": "Shop King Size",
+        "button_link_2": "shopify:\/\/collections\/king-size-bedsheets",
+        "button_style_secondary_2": false
+      }
+    },
+    "collection_list_D9iHT6": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_BwfUEB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clothing-collection-baby"
+          }
+        },
+        "featured_collection_maxh4E": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bestsellers"
+          }
+        },
+        "featured_collection_KPhmzD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby"
+          }
+        },
+        "featured_collection_bWtYnk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cushion-covers"
+          }
+        },
+        "featured_collection_jFnYFD": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "baby-feeding-pillow-1-baby"
+          }
+        },
+        "featured_collection_8cApRm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rest-nest-collection-baby"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_BwfUEB",
+        "featured_collection_maxh4E",
+        "featured_collection_KPhmzD",
+        "featured_collection_bWtYnk",
+        "featured_collection_jFnYFD",
+        "featured_collection_8cApRm"
+      ],
+      "disabled": true,
+      "settings": {
+        "classname": "",
+        "title": "<strong>Collections<\/strong>",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_link_blocks_QRC8Ck": {
+      "type": "image-with-link-blocks",
+      "blocks": {
+        "select_tbFYnX": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_cc855379-1da6-4c82-9aae-37612b9cfcf7.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/pages\/bestseller_bedsheets",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_eNW8kH": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_e6c0c458-c9f4-4941-9203-efa60e93b6f6.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/towels",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_LPMah9": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_77847a1a-e69c-442b-907d-5721c03037c8.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/cushion-covers",
+            "button": "",
+            "btnlink": ""
+          }
+        },
+        "select_Nr6bCM": {
+          "type": "select",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_0657d7a1-5b3c-43d8-badb-6b4c28a53157.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/curtains",
+            "button": "",
+            "btnlink": ""
+          }
+        }
+      },
+      "block_order": [
+        "select_tbFYnX",
+        "select_eNW8kH",
+        "select_LPMah9",
+        "select_Nr6bCM"
+      ],
+      "settings": {
+        "uniqueclass": "offer",
+        "slider_enable": false,
+        "check": false,
+        "title": "<b>Fast Sellers<\/b>",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "slide_to_show": 4,
+        "slide_to_show_mob": 2,
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "fa41794e-c83a-40dd-8dc0-2d674c636e84": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's stay in touch",
+            "heading_size": "h1"
+          }
+        },
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<h3>Can't wait to connect!<\/h3>"
+          }
+        },
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-heading-1",
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-paragraph-1",
+        "template--14816223166582__fa41794e-c83a-40dd-8dc0-2d674c636e84-email_form-1"
+      ],
+      "settings": {
+        "classname": "",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 44
+      }
+    },
+    "tabs_with_collection_iRdd6k": {
+      "type": "tabs-with-collection",
+      "blocks": {
+        "collection_tab_CmdQyk": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Home",
+            "colletion": "king-size-bedsheets",
+            "show_secondary_image": true,
+            "product_limit": 10
+          }
+        },
+        "collection_tab_yDttE6": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "BABY",
+            "colletion": "variant-baby",
+            "show_secondary_image": true,
+            "product_limit": 15
+          }
+        },
+        "collection_tab_xU6WJ7": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Bestsellers",
+            "colletion": "shop-all-bedsheets",
+            "show_secondary_image": true,
+            "product_limit": 10
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_CmdQyk",
+        "collection_tab_yDttE6",
+        "collection_tab_xU6WJ7"
+      ],
+      "settings": {
+        "title": "SAVE UP",
+        "enable_quick_add": true
+      }
+    },
+    "cda3a699-915f-4925-beaa-76748a995142": {
+      "type": "video",
+      "settings": {
+        "classname": "",
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=om-Tpd9R7VA",
+        "cover_image": "shopify:\/\/shop_images\/Your_Beautiful_New.jpg",
+        "mobcover_image": "shopify:\/\/shop_images\/Untitled_540_x_550_px_1.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "9542c940-1152-450e-9322-afc208376284": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "main-heading-color": "#000000",
+        "blog-headinng-color": "",
+        "blog-btn-color": "",
+        "readmore_text": "Read More",
+        "heading_size": "h1",
+        "blog": "supermom-in-spotlight",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "slideshow_8nx9BU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hJ6kMY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_7a1b0d00-55ff-4192-992a-3189ad111162.jpg",
+            "mobimage": "shopify:\/\/shop_images\/1_1dee639e-656b-466f-96c5-75c294c1eb06.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YwUiFb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_fcb407e6-60a7-4315-a941-b99b36dab94f.jpg",
+            "mobimage": "shopify:\/\/shop_images\/2_f8670616-f982-455a-b6bb-63597c11b92d.jpg",
+            "image_link": "shopify:\/\/collections\/cushion-covers",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/bogo",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xyJgcf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_ce2dd64b-7636-4ad8-b5ee-8b338b3b8836.jpg",
+            "mobimage": "shopify:\/\/shop_images\/3_e8e8aa5c-3637-4fe8-8850-1d06365b0d17.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_txKmJe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_624adb9f-e8ac-4329-8217-4ea7262a3f28.jpg",
+            "mobimage": "shopify:\/\/shop_images\/4_37392c79-378c-45fa-ae0a-a73805aedd8e.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hJ6kMY",
+        "slide_YwUiFb",
+        "slide_xyJgcf",
+        "slide_txKmJe"
+      ],
+      "settings": {
+        "classname": "",
+        "title": "Why Choose Haus and Kinder ?",
+        "heading_color": "#000000",
+        "heading_font": 34,
+        "mobheading_font": 22,
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "3c835abb-3f56-4c66-8390-d62e273576f7": {
+      "type": "logo-with-text",
+      "blocks": {
+        "6f8cb95f-dcba-4223-8c74-b6aedb4af72b": {
+          "type": "logo_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/local_shipping_FILL0_wght400_GRAD0_opsz24.svg",
+            "heading": "Same Day Dispatch",
+            "link": "shopify:\/\/policies\/shipping-policy"
+          }
+        },
+        "fb4aab44-fbda-440a-b24a-9ace7b3e3d69": {
+          "type": "logo_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/money.png",
+            "heading": "Cash on delivery",
+            "link": ""
+          }
+        },
+        "ed353deb-e278-4430-a7c8-ba09ef5b66ac": {
+          "type": "logo_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/undo_FILL0_wght400_GRAD0_opsz24.svg",
+            "heading": "7 days Returns policy",
+            "link": "shopify:\/\/policies\/refund-policy"
+          }
+        },
+        "98f2473c-1113-4c47-88ef-ceca8d4d0297": {
+          "type": "logo_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cashless-payment.png",
+            "heading": "Secure payment gateway",
+            "link": "shopify:\/\/policies\/terms-of-service"
+          }
+        }
+      },
+      "block_order": [
+        "6f8cb95f-dcba-4223-8c74-b6aedb4af72b",
+        "fb4aab44-fbda-440a-b24a-9ace7b3e3d69",
+        "ed353deb-e278-4430-a7c8-ba09ef5b66ac",
+        "98f2473c-1113-4c47-88ef-ceca8d4d0297"
+      ],
+      "settings": {
+        "classname": "section-for-desktop"
+      }
+    },
+    "spacer_QFATTV": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "header_upper_mobile_bH66zP",
+    "f299e08d-7f42-4c47-83e8-b35b48ee27f1",
+    "0476e9b0-810b-4071-9bf4-94ae3f5f7b90",
+    "featured_collection_hCfMFc",
+    "featured_collection",
+    "featured_collection_mDK6Mr",
+    "image_with_link_gYcPHx",
+    "featured_collection_fqVH3j",
+    "block_image_with_text_wcXLtB",
+    "featured_collection_XEPg3T",
+    "featured_collection_gJhjR8",
+    "1576eae5-dd04-4c88-88ba-fa0aa0f7ffd6",
+    "collection_list_D9iHT6",
+    "image_with_link_blocks_QRC8Ck",
+    "fa41794e-c83a-40dd-8dc0-2d674c636e84",
+    "tabs_with_collection_iRdd6k",
+    "cda3a699-915f-4925-beaa-76748a995142",
+    "9542c940-1152-450e-9322-afc208376284",
+    "slideshow_8nx9BU",
+    "3c835abb-3f56-4c66-8390-d62e273576f7",
+    "spacer_QFATTV"
+  ]
+}

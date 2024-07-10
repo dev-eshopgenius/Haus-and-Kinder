@@ -1,0 +1,36 @@
+{%- unless cart == empty -%}
+{% if settings['enable-one-discount'] %}
+  <diV class="one-discountCode-wrapper">
+    <div class="discount-content-wrap">
+      {% if settings.one_disc_heading != blank or settings.one_disc_subheading != blank %}
+        <div class="content--wrap">
+          {% if settings.one_disc_heading != blank %}
+            <div class="one_heading">
+              {{ settings.one_disc_heading }}
+            </div>
+          {% endif %}
+          {% if settings.one_disc_subheading != blank %}
+            <div class="one_subheading">
+              {{ settings.one_disc_subheading }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if settings.one_disc_content != blank or settings.one_disc_code != blank %}
+        <div class="discount--code-wrap">
+          {% if settings.one_disc_content != blank %}
+            <div class="one_disc_content">
+              {{ settings.one_disc_content }}
+            </div>
+          {% endif %}
+          {% if settings.one_disc_code != blank %}
+            <div class="one_disc_code">
+              {{ settings.one_disc_code }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </diV>
+{% endif %}
+{% endunless %}

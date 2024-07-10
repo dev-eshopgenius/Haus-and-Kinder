@@ -1,0 +1,297 @@
+<!-- START:- product offer block snippet -->
+{% comment %}
+  {% if product.metafields.custom.product_offer_1 != blank
+    or product.metafields.custom.terms_and_condition_1 != blank
+    or product.metafields.custom.product_offer_2 != blank
+    or product.metafields.custom.terms_and_condition_2 != blank
+    or product.metafields.custom.product_offer_3 != blank
+    or product.metafields.custom.terms_and_condition_3 != blank
+    or product.metafields.custom.product_offer_4 != blank
+    or product.metafields.custom.terms_and_condition_4 != blank
+    or product.metafields.custom.product_offer_5 != blank
+    or product.metafields.custom.terms_and_condition_5 != blank
+    or product.metafields.custom.product_offer_6 != blank
+    or product.metafields.custom.terms_and_condition_6 != blank
+    or product.metafields.custom.product_offer_7 != blank
+    or product.metafields.custom.terms_and_condition_7 != blank
+    or product.metafields.custom.product_offer_8 != blank
+    or product.metafields.custom.terms_and_condition_8 != blank
+    or product.metafields.custom.product_offer_9 != blank
+    or product.metafields.custom.terms_and_condition_9 != blank
+    or product.metafields.custom.product_offer_10 != blank
+    or product.metafields.custom.terms_and_condition_10 != blank
+  %}
+    <div class="product--offers-wrap">
+      <div class="offers--content-wrap">
+        {% if section.settings.title != blank %}
+          <div class="title">
+            {{ section.settings.title }}
+          </div>
+        {% endif %}
+        <div class="internalcontent-wrap">
+          <ul>
+            {% if product.metafields.custom.product_offer_1 != blank
+              or product.metafields.custom.terms_and_condition_1 != blank
+            %}
+              <li>
+                {{ product.metafields.custom.product_offer_1.value }}
+                {% if product.metafields.custom.terms_and_condition_1.value != blank %}
+                  <div class="terms-condition-wrap">
+                    <div class="content">
+                      <span>Terms & Conditions :</span>
+                      {{ product.metafields.custom.terms_and_condition_1.value }}
+                    </div>
+                  </div>
+                {% endif %}
+              </li>
+            {% endif %}
+            {% if product.metafields.custom.product_offer_2 != blank
+              or product.metafields.custom.terms_and_condition_2 != blank
+            %}
+              <li>
+                {{ product.metafields.custom.product_offer_2.value }}
+                {% if product.metafields.custom.terms_and_condition_2.value != blank %}
+                  <div class="terms-condition-wrap ">
+                    <div class="content">
+                      <span>Terms & Conditions :</span>
+                      {{ product.metafields.custom.terms_and_condition_2.value }}
+                    </div>
+                  </div>
+                {% endif %}
+              </li>
+            {% endif %}
+            <div class="hideoffers_wrap" style="display:none;">
+              {% if product.metafields.custom.product_offer_3 != blank
+                or product.metafields.custom.terms_and_condition_3 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_3.value }}
+                  {% if product.metafields.custom.terms_and_condition_3.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_3.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_4 != blank
+                or product.metafields.custom.terms_and_condition_4 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_4.value }}
+                  {% if product.metafields.custom.terms_and_condition_4.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_4.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_5 != blank
+                or product.metafields.custom.terms_and_condition_5 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_5.value }}
+                  {% if product.metafields.custom.terms_and_condition_5.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_5.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_6 != blank
+                or product.metafields.custom.terms_and_condition_6 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_6.value }}
+                  {% if product.metafields.custom.terms_and_condition_6.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_6.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_7 != blank
+                or product.metafields.custom.terms_and_condition_7 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_7.value }}
+                  {% if product.metafields.custom.terms_and_condition_7.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_7.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_8 != blank
+                or product.metafields.custom.terms_and_condition_8 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_8.value }}
+                  {% if product.metafields.custom.terms_and_condition_8.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_8.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_9 != blank
+                or product.metafields.custom.terms_and_condition_9 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_9.value }}
+                  {% if product.metafields.custom.terms_and_condition_9.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_9.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product_offer_10 != blank
+                or product.metafields.custom.terms_and_condition_10 != blank
+              %}
+                <li>
+                  {{ product.metafields.custom.product_offer_10.value }}
+                  {% if product.metafields.custom.terms_and_condition_10.value != blank %}
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        <span>Terms & Conditions :</span>
+                        {{ product.metafields.custom.terms_and_condition_10.value }}
+                      </div>
+                    </div>
+                  {% endif %}
+                </li>
+              {% endif %}
+            </div>
+          </ul>
+        </div>
+        <div class="viewmore">+View More</div>
+      </div>
+    </div>
+  {% endif %}
+{% endcomment %}
+
+<!-- product offers coming from theme settings -->
+<div class="product--offers-wrap">
+  <div class="offers--content-wrap">
+    {% if block.settings.offertitle != blank %}
+      <div class="title">
+        {{ block.settings.offertitle }}
+      </div>
+    {% endif %}
+    <div class="internalcontent-wrap">
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.type == 'product__offers' %}
+            {% if block.settings.today_deal_text != blank or block.settings.today_deal_subtext != blank %}
+              <li class="deal_text_wrap">
+                <div class="heading">
+                  <span>{{ block.settings.today_deal_text }}</span>
+                </div>
+                <div class="sal--timer-wrap">
+                  <div class="subtext">{{ block.settings.today_deal_subtext }}</div>
+                </div>
+              </li>
+            {% endif %}
+            {% for i in (i..10) %}
+              {% capture heading %}heading{{ i }}{% endcapture %}
+              {% capture subheading %}subheading{{ i }}{% endcapture %}
+
+              {% if block.settings[heading] != blank or block.settings[subheading] != blank %}
+                <li>
+                  <div class="contentwrapp">
+                    <div class="terms-condition-wrap">
+                      <div class="content">
+                        {{ block.settings[subheading] }}
+                      </div>
+                    </div>
+                    <div class="heading">
+                      <div class="codes--wrap">
+                      <span>Use Code:</span>
+                      <span class="discountcode">{{ block.settings[heading] }}</span>
+                        {% comment %}<span>{% render 'icon-copy' %}</span> {% endcomment %}
+                    </div>
+                      </div>
+                  </div>
+                </li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+   
+  </div>
+</div>
+
+<!-- icon with text coming from metafields -->
+<div class="icon--with-text-wrap">
+  {% if product.metafields.custom.product_icon_1 != blank or product.metafields.custom.product_icon1_text != blank %}
+    <div class="icon--text-wrap product_icon1">
+      {% if product.metafields.custom.product_icon_1 != blank %}
+        {{
+          product.metafields.custom.product_icon_1.value
+          | image_url: width: 1024
+          | image_tag: loading: 'lazy', class: 'product_icon1_img'
+        }}
+      {% endif %}
+      {% if product.metafields.custom.product_icon1_text != blank %}
+        <div>{{ product.metafields.custom.product_icon1_text.value }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom.product_icon_2 != blank or product.metafields.custom.product_icon2_text != blank %}
+    <div class="icon--text-wrap product_icon2">
+      {{
+        product.metafields.custom.product_icon_2.value
+        | image_url: width: 1024
+        | image_tag: loading: 'lazy', class: 'product_icon2_img'
+      }}
+      <div>{{ product.metafields.custom.product_icon2_text.value }}</div>
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom.product_icon_3 != blank or product.metafields.custom.product_icon3_text != blank %}
+    <div class="icon--text-wrap product_icon3">
+      {{
+        product.metafields.custom.product_icon_3.value
+        | image_url: width: 1024
+        | image_tag: loading: 'lazy', class: 'product_icon3_img'
+      }}
+      <div>{{ product.metafields.custom.product_icon3_text.value }}</div>
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom.product_icon_4 != blank or product.metafields.custom.product_icon4_text != blank %}
+    <div class="icon--text-wrap product_icon4">
+      {{
+        product.metafields.custom.product_icon_4.value
+        | image_url: width: 1024
+        | image_tag: loading: 'lazy', class: 'product_icon4_img'
+      }}
+      <div>{{ product.metafields.custom.product_icon4_text.value }}</div>
+    </div>
+  {% endif %}
+</div>
+
+<!-- END:- product offer block snippet -->

@@ -1,0 +1,104 @@
+{% comment %}
+  Renders social icons.
+  Accepts:
+  - class: {String} a class to be added to the <ul> element (optional).
+
+  Usage:
+  {% render 'social-icons',
+    class: 'my-class'
+  %}
+{% endcomment %}
+
+{% assign baby_fb = settings.baby_social_facebook_link %}
+{% assign baby_insta = settings.baby_social_instagram_link %}
+{% assign baby_youtube = settings.baby_social_youtube_link %}
+{% assign baby_pinterest = settings.baby_social_pinterest_link %}
+{% assign baby_snapchat = settings.baby_social_snapchat_link %}
+{% assign baby_tiktok = settings.baby_social_tiktok_link %}
+{% assign baby_tumblr = settings.baby_social_tumblr_link %}
+{% assign baby_twitter = settings.baby_social_twitter_link %}
+{% assign baby_vimeo = settings.baby_social_vimeo_link %}
+{% assign baby_linkedin = settings.baby_social_linkedin_link %}
+
+<ul class="list-unstyled list-social{% if class %} {{ class}}{% endif %}" role="list">
+  {%- if settings.social_facebook_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_fb }}{% else %}{{ settings.social_facebook_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-facebook' -%}
+        <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_instagram_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_insta }}{% else %}{{ settings.social_instagram_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-instagram' -%}
+        <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_youtube_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_youtube }}{% else %}{{ settings.social_youtube_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-youtube' -%}
+        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tiktok_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_tiktok }}{% else %}{{ settings.social_tiktok_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-tiktok' -%}
+        <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_twitter_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_twitter }}{% else %}{{ settings.social_twitter_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-twitter' -%}
+        <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_pinterest_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_pinterest }}{% else %}{{ settings.social_pinterest_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-pinterest' -%}
+        <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_snapchat_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_snapchat }}{% else %}{{ settings.social_snapchat_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-snapchat' -%}
+        <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tumblr_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_tumblr }}{% else %}{{ settings.social_tumblr_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-tumblr' -%}
+        <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_vimeo_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_vimeo }}{% else %}{{ settings.social_vimeo_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-vimeo' -%}
+        <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+    {%- if settings.social_linkedin_link != blank -%}
+    <li class="list-social__item">
+      <a href="{% if request.path contains 'baby' %}{{ baby_linkedin }}{% else %}{{ settings.social_linkedin_link }}{% endif %}" class="link list-social__link">
+        {%- render 'icon-linkedin' -%}
+        <span class="visually-hidden">LinkedIn</span>
+      </a>
+    </li>
+  {%- endif -%}
+</ul>

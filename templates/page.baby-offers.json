@@ -1,0 +1,512 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "header_upper_mobile_8n6UFY": {
+      "type": "header-upper-mobile",
+      "settings": {
+        "classname": "",
+        "check": true,
+        "text1": "HOME",
+        "main_url": "shopify:\/\/pages\/bogo",
+        "text2": "BABY",
+        "baby_url": "shopify:\/\/pages\/7happyhours",
+        "home_backgroundcolor": "",
+        "backgroundcolor": "#e24407"
+      }
+    },
+    "image_with_link_HtTFXy": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/8HH_Banners1440_550.gif",
+        "mobbanner": "shopify:\/\/shop_images\/8HH_Banners1440_550.gif"
+      }
+    },
+    "image_with_link_YReD97": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/8HH_Banners1440_550.gif",
+        "mobbanner": "shopify:\/\/shop_images\/8HH_Banners1440_550.gif"
+      }
+    },
+    "block_image_with_text_CiLjCq": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_KKAHPi": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_88.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_88.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/pages\/baby-swaddle"
+          }
+        },
+        "image_with_text_grB6Ya": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_93.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_93.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-gift-box"
+          }
+        },
+        "image_with_text_nqYQ8i": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_89.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_89.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-feeding-pillow-1-baby"
+          }
+        },
+        "image_with_text_ytXJnG": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_96.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_96.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/dreamsack-stage-1-baby"
+          }
+        },
+        "image_with_text_dEtqCW": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_90.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_90.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/carrier-nest-baby"
+          }
+        },
+        "image_with_text_AR9rkk": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_94.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_94.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-knitted-blanket-baby"
+          }
+        },
+        "image_with_text_KrfCF4": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_91.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_91.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/clothing-collection-baby"
+          }
+        },
+        "image_with_text_GCPpKJ": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_95.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_95.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-playmat-baby"
+          }
+        },
+        "image_with_text_XDHQx9": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_92.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_92.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-diaper-bags"
+          }
+        },
+        "image_with_text_NrYfpN": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_97.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_97.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/sleeping-pod-baby"
+          }
+        },
+        "image_with_text_yPqRU9": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_98.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_98.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-bedding-set-baby"
+          }
+        },
+        "image_with_text_fD4BYt": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_99.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_99.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/baby-crib-mobile-baby"
+          }
+        },
+        "image_with_text_rbqEyh": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_100.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_100.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/onesies-baby"
+          }
+        },
+        "image_with_text_HJKnyU": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_101.png",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_101.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/innerwear-baby-girls-baby"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_KKAHPi",
+        "image_with_text_grB6Ya",
+        "image_with_text_nqYQ8i",
+        "image_with_text_ytXJnG",
+        "image_with_text_dEtqCW",
+        "image_with_text_AR9rkk",
+        "image_with_text_KrfCF4",
+        "image_with_text_GCPpKJ",
+        "image_with_text_XDHQx9",
+        "image_with_text_NrYfpN",
+        "image_with_text_yPqRU9",
+        "image_with_text_fD4BYt",
+        "image_with_text_rbqEyh",
+        "image_with_text_HJKnyU"
+      ],
+      "settings": {
+        "classname": "explore-collection",
+        "heading": "",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection_BpT8Hm": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Swaddles & Wraps",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "swaddle-packs-for-baby-boys",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection_fAaep9": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Blankets",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "baby-knitted-blanket-baby",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection_ERajWT": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Feeding Pillow",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "baby-feeding-pillow-1-baby",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_link_wWJBYq": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/baby",
+        "banner": "shopify:\/\/shop_images\/BOGO_BABY_PDP_Banner.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/baby_bogo1440_x_400_px_2c8c5fc2-56da-4e4a-b152-07d1008d6180.jpg"
+      }
+    },
+    "image_with_link_ByJWx7": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/8HH_Overlay_Banner_1220x330_GIF.gif",
+        "mobbanner": "shopify:\/\/shop_images\/8HH_Overlay_Banner_1220x330_GIF_ef8b197a-6293-40c6-a0b0-f94333978171.gif"
+      }
+    },
+    "featured_collection_4PEVHY": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Clothing",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "knit-fashion",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_VHxPKt": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Rest and Nest",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "rest-nest-baby",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_WxdKBk": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Nursery Decor",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "baby-playmat-baby",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_link_8BHGTK": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/baby",
+        "banner": "shopify:\/\/shop_images\/Kalki_Overlay_5fb3fcdd-11cc-4589-b9d3-fab5468b2714.gif",
+        "mobbanner": "shopify:\/\/shop_images\/Kalki_Overlay_5fb3fcdd-11cc-4589-b9d3-fab5468b2714.gif"
+      }
+    },
+    "image_with_link_Bmjw4X": {
+      "type": "image-with-link",
+      "disabled": true,
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/baby",
+        "banner": "shopify:\/\/shop_images\/8HH_PDP_Banner.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/8HH_PDP_Banner.jpg"
+      }
+    },
+    "featured_collection_YMCFF9": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Bestsellers",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "variant-baby",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "View All",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "header_upper_mobile_8n6UFY",
+    "image_with_link_HtTFXy",
+    "image_with_link_YReD97",
+    "block_image_with_text_CiLjCq",
+    "featured_collection_BpT8Hm",
+    "featured_collection_fAaep9",
+    "featured_collection_ERajWT",
+    "image_with_link_wWJBYq",
+    "image_with_link_ByJWx7",
+    "featured_collection_4PEVHY",
+    "featured_collection_VHxPKt",
+    "featured_collection_WxdKBk",
+    "image_with_link_8BHGTK",
+    "image_with_link_Bmjw4X",
+    "featured_collection_YMCFF9"
+  ]
+}

@@ -1,0 +1,116 @@
+{% comment %}
+  Renders a header search modal. Should be used with 'header.liquid'
+
+  Accepts:
+  - input_id: {String} Id for the search input element (required)
+
+  Usage:
+  {% render 'header-search', input_id: 'My-Id'%}
+{% endcomment %}
+
+<details-modal class="header__search section-for-mobile">
+  <details>
+    <summary
+      class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+      aria-haspopup="dialog"
+      aria-label="{{ 'general.search.search' | t }}"
+    >
+      <span>
+        <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+          <use href="#icon-search">
+        </svg>
+        <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
+          <use href="#icon-close">
+        </svg>
+      </span>
+    </summary>
+    <div
+      class="search-modal modal__content gradient"
+      role="dialog"
+      aria-modal="true"
+      aria-label="{{ 'general.search.search' | t }}"
+    >
+      <div class="modal-overlay"></div>
+      <div
+        class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}"
+        tabindex="-1"
+      >
+        {%- if settings.predictive_search_enabled -%}
+          <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
+        {%- else -%}
+          <search-form class="search-modal__form">
+        {%- endif -%}
+        <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+          <div class="field">
+            <input
+              class="search__input field__input"
+              id="{{ input_id }}"
+              type="search"
+              name="q"
+              value="{{ search.terms | escape }}"
+              placeholder="{{ 'general.search.search' | t }}"
+              {%- if settings.predictive_search_enabled -%}
+                role="combobox"
+                aria-expanded="false"
+                aria-owns="predictive-search-results"
+                aria-controls="predictive-search-results"
+                aria-haspopup="listbox"
+                aria-autocomplete="list"
+                autocorrect="off"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+              {%- endif -%}
+            >
+            <label class="field__label" for="{{ input_id }}">{{ 'general.search.search' | t }}</label>
+            <input type="hidden" name="options[prefix]" value="last">
+            <button
+              type="reset"
+              class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
+              aria-label="{{ 'general.search.reset' | t }}"
+            >
+              <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                <use xlink:href="#icon-reset">
+              </svg>
+            </button>
+            <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+              <svg class="custom-icon icon icon-search"  width="1379" height="1378" viewBox="0 0 1379 1378" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <use href="#icon-search">
+                <path d="M880.483 759.975C897.865 776.391 915.246 793.773 934.076 810.189C937.456 813.086 944.699 814.534 949.527 813.086C988.153 802.464 1020.5 812.12 1048.51 840.124C1146.04 937.654 1243.57 1035.19 1341.1 1132.72C1384.07 1175.69 1384.07 1229.76 1341.1 1273.22C1317.92 1296.88 1294.75 1320.53 1270.61 1343.23C1230.53 1381.85 1176.45 1382.34 1136.86 1343.23C1036.92 1243.77 937.456 1144.3 837.994 1044.36C811.439 1017.8 804.197 985.937 813.853 949.725C815.302 944.897 814.819 937.172 811.439 934.275C795.023 915.927 777.158 899.029 759.294 880.681C635.208 962.761 501.465 986.903 358.549 948.759C244.602 918.341 154.797 853.16 88.1669 756.112C-43.6444 564.431 -16.1233 300.808 151.9 139.545C321.371 -23.1674 583.063 -40.0663 771.847 98.5045C964.012 239.007 1036.92 528.219 880.483 759.975ZM485.532 59.8785C249.913 59.3957 61.1287 248.18 60.6459 483.799C60.1631 718.935 249.431 909.168 484.084 909.651C718.737 910.134 909.935 719.9 910.418 485.73C910.901 250.112 721.633 59.8785 485.532 59.8785ZM1319.85 1201.76C1314.06 1191.62 1310.68 1181.48 1303.92 1174.72C1204.46 1074.78 1105 975.315 1005.05 875.853C987.67 858.954 967.874 858.471 950.493 875.37C925.386 899.511 900.762 924.135 876.62 949.242C859.239 967.59 859.239 986.903 877.103 1004.77C976.082 1104.23 1075.54 1203.21 1174.52 1302.67C1191.91 1320.05 1213.15 1320.05 1230.53 1303.15C1255.64 1279.01 1280.26 1254.39 1304.4 1228.8C1311.65 1222.52 1314.54 1212.38 1319.85 1201.76ZM849.582 806.326C834.615 820.328 820.13 834.33 807.094 846.883C821.095 861.851 836.546 877.784 850.065 892.269C865.033 877.784 879.517 864.265 893.036 851.229C877.586 835.778 862.136 819.845 849.582 806.326Z" fill="black" stroke="black" stroke-width="9.6565" stroke-miterlimit="10"/>
+<path d="M847.168 484.764C847.168 685.137 686.387 846.4 485.532 846.4C285.642 846.4 123.413 684.654 123.413 484.764C123.413 284.875 285.642 122.646 485.532 122.646C685.421 122.646 847.168 284.392 847.168 484.764ZM178.938 485.247C179.421 655.202 316.06 791.358 486.014 790.876C655.486 790.876 792.126 653.27 791.643 483.316C791.16 314.81 654.038 178.171 485.532 178.171C315.577 178.653 178.938 315.293 178.938 485.247Z" fill="black" stroke="black" stroke-width="9.6565" stroke-miterlimit="10"/>
+<path d="M1241.15 1203.69C1245.5 1212.86 1243.57 1223.49 1237.29 1231.21C1234.39 1234.59 1231.5 1237.97 1227.63 1239.42C1219.43 1242.32 1205.42 1241.83 1199.63 1236.52C1176.45 1216.24 1155.21 1194.52 1134.45 1171.82C1123.83 1160.72 1126.24 1146.72 1136.86 1136.1C1147 1125.96 1160.52 1123.54 1171.14 1133.2C1194.8 1154.44 1216.53 1177.62 1238.74 1200.79C1239.7 1201.76 1240.67 1202.73 1241.15 1203.69Z" fill="black" stroke="black" stroke-width="9.6565" stroke-miterlimit="10"/>
+<path d="M1149.42 1155.89C1145.07 1155.41 1141.21 1155.41 1136.86 1154.93" stroke="black" stroke-width="9.6565" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+              <!-- <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                <use href="#icon-search">
+              </svg> -->
+            </button>
+          </div>
+
+          {%- if settings.predictive_search_enabled -%}
+            <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+              {%- render 'loading-spinner', class: 'predictive-search__loading-state' -%}
+            </div>
+
+            <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+          {%- endif -%}
+        </form>
+        {%- if settings.predictive_search_enabled -%}
+          </predictive-search>
+        {%- else -%}
+          </search-form>
+        {%- endif -%}
+        <button
+          type="button"
+          class="search-modal__close-button modal__close-button link link--text focus-inset"
+          aria-label="{{ 'accessibility.close' | t }}"
+        >
+          <svg class="icon icon-close" aria-hidden="true" focusable="false">
+            <use href="#icon-close">
+          </svg>
+        </button>
+      </div>
+    </div>
+  </details>
+</details-modal>

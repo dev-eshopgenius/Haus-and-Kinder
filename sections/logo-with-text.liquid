@@ -1,0 +1,72 @@
+<div class="logo-with-text-section section-main-wrapper {{ section.settings.classname }}">
+  <div class="lwt--ccontent-wrap page-width">
+    {% for block in section.blocks %}
+      {% if block.type == 'logo_with_text' %}
+        <div class="block-content-wrap">
+          {% if block.settings.image != blank %}
+            <div class="image">
+              {% if block.settings.link != blank %}<a href="{{ block.settings.link }}"> {% endif -%}
+              {{- block.settings.image | image_url: width:'100' | image_tag: loading:'lazy', class:'svg_img'-}}
+              {% if block.settings.link != blank %}</a> {% endif %}
+            </div>
+          {% endif %}
+          {% if block.settings.heading != blank %}
+            <div class="heading">
+              {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
+              {{ block.settings.heading }}
+              {% if block.settings.link != blank %}</a>{% endif %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Logo with Text",
+  "settings": [
+                 {
+  "type":"text",
+  "id":"classname",
+  "label":"Unique ClassName"
+}
+  
+  ],
+  "blocks":[
+    {
+      "name":"Logo with Text",
+      "type":"logo_with_text",
+      "settings":[
+      {
+          "type":"image_picker",
+          "id":"image",
+          "label":"Image"
+        },
+        {
+          "type":"text",
+          "id":"heading",
+          "label":"Heading"
+        },
+         {
+          "type":"url",
+          "id":"link",
+          "label":"Link"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Logo with Text",
+      "category":"Home"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

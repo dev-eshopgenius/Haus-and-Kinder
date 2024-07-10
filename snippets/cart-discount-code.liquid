@@ -1,0 +1,199 @@
+<!-- ---- copy discount code -- -->
+{% if settings['copy-discount-code'] %}
+  <div class="discount-msg cart-discountcode-wrapper" style="display:none;">
+    <div class="apply--offers-wrap">
+      {% render 'icon-backspace' %}
+      Apply Offers
+    </div>
+    <div class="discount-codecoppy-wrap">
+      {% if settings['copy-discount-code1'] %}
+        {% if settings.copycodeHeading != blank %}
+          <div id="copyText1" class="copyText1 discount-text ">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">{{ settings.copycodeText }}</p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code2'] %}
+        {% if settings.copycodeHeading2 != blank %}
+          <div id="copyText2" class="copyText2 discount-text ">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading2 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText2 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess2 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code3'] %}
+        {% if settings.copycodeHeading3 != blank %}
+          <div id="copyText3" class="copyText3 discount-text ">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading3 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText3 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess3 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code4'] %}
+        {% if settings.copycodeHeading4 != blank %}
+          <div id="copyText4" class="copyText4 discount-text ">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading4 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText4 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess4 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code5'] %}
+        {% if settings.copycodeHeading5 != blank %}
+          <div id="copyText5" class="copyText5 discount-text ">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading5 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText5 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess5 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code6'] %}
+        {% if settings.copycodeHeading6 != blank %}
+          <div id="copyText6" class="copyText6 discount-text active">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading6 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText6 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess6 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code7'] %}
+        {% if settings.copycodeHeading7 != blank %}
+          <div id="copyText7" class="copyText7 discount-text active">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading7 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText7 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess7 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code8'] %}
+        {% if settings.copycodeHeading8 != blank %}
+          <div id="copyText8" class="copyText8 discount-text active">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading8 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText8 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess8 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code9'] %}
+        {% if settings.copycodeHeading9 != blank %}
+          <div id="copyText9" class="copyText9 discount-text active">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading9 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText9 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess9 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if settings['copy-discount-code10'] %}
+        {% if settings.copycodeHeading10 != blank %}
+          <div id="copyText10" class="copyText10 discount-text active">
+            <h3 style="color:{{settings.DisColor}};font-size:{{settings.headfont}}px;">
+              <span class="coppied copy--text-value">
+                {{- settings.copycodeHeading10 -}}
+              </span>
+              <span class="copyText">Copy</span>
+            </h3>
+            <p style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeText10 }}
+            </p>
+            <div class="message" style="color:{{settings.DisColor}};font-size:{{settings.descfont}}px">
+              {{ settings.copycodeSuccess10 }}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+<!-- ---- copy discount code --- -->

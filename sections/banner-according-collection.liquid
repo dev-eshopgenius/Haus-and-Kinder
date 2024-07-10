@@ -1,0 +1,425 @@
+<!-- START:- section product banner -->
+
+{% assign coll_from = blank %}
+{% for collection in product.collections %}
+  {% if collection == section.settings.home_coll %}
+    {% assign coll_from = 'home' %}
+  {% elsif collection == section.settings.baby_coll %}
+    {% assign coll_from = 'baby' %}
+  {% endif %}
+{% endfor %}
+
+{% if coll_from == 'home' %}
+  {% assign b_linkk = section.settings.home_b_link %}
+  {% assign b_imgg = section.settings.home_b_img %}
+{% elsif coll_from == 'baby' %}
+  {% assign b_linkk = section.settings.baby_b_link %}
+  {% assign b_imgg = section.settings.baby_b_img %}
+{% endif %}
+
+{% if section.settings.enable_banner %}
+  {% capture bannerSection %}
+  {% if coll_from != blank %}
+    <div class="prod-banner_block">
+      <div class="iwt--link-wrap">
+        {% if b_linkk != blank %}<a href="{{ b_linkk }}"> {% endif %}
+        {% if b_imgg != blank %}
+          <div clas="image">
+            {{ b_imgg | image_url: width: 1024 | image_tag: loading: 'lazy', class: 'prod_b_imgg' }}
+          </div>
+        {% endif %}
+        {% if b_linkk != blank %} </a>{% endif %}
+      </div>
+    </div>
+  {% endif %}
+   {% endcapture %}
+{% endif %}
+
+<!-- END:- section product banner -->
+
+{% if section.settings.layout == 'banner_first' %}
+  {{ bannerSection }}
+{% endif %}
+<!-- START:- section category -->
+
+{% if section.settings.enable_category %}
+  <div class="block--iwt-section page-width category--section-wrapper {{ section.settings.classname }} section_{{ section.settings.layout }}">
+    {% if section.settings.title != blank %}
+      <div class="heading title-wrapper">
+        <h2
+          class="title inline-richtext h1 scroll-trigger animate--slide-in"
+          style="color:{{ section.settings.heading_color }};font-size:{{ section.settings.heading_font }}px"
+        >
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {% endif %}
+    <div class="category--content-wrap">
+      {% for block in section.blocks %}
+        {% for i in (1..10) %}
+          {% if coll_from == 'home' %}
+            {% capture images %}home_img{{ i }}{% endcapture %}
+            {% capture links %}home__link{{ i }}{% endcapture %}
+          {% elsif coll_from == 'baby' %}
+            {% capture images %}baby_img{{ i }}{% endcapture %}
+            {% capture links %}baby__link{{ i }}{% endcapture %}
+          {% endif %}
+
+          {% if block.settings[images] != blank %}
+            <div class="category--block-wrapper">
+              <div class="all-image-wrap">
+                {% if block.settings[links] != blank %} <a href="{{ block.settings[links] }}">{% endif %}
+                {{ block.settings[images] | image_url: width: 1024 | image_tag: class: 'image', loading: 'lazy' }}
+                {% if block.settings[links] != blank %} </a>{% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      <div></div>
+    </div>
+  </div>
+{% endif %}
+<!-- End:- section category -->
+
+{% if section.settings.layout == 'category_first' %}
+  {{ bannerSection }}
+{% endif %}
+
+{% schema %}
+{
+  "name":"Banner Related Collection",
+  "settings": [
+   
+     {
+          "type": "select",
+          "id": "classname",
+          "options": [
+            {
+              "value": "no-any-class",
+              "label": "No Any Class"
+            },
+            {
+              "value": "mayalso explore-collection",
+              "label": "mayalso explore-collection"
+            },
+             {
+              "value": "mayalso",
+              "label": "mayalso"
+            }
+          ],
+          "default": "no-any-class",
+          "label": "Select Class"
+        },
+     {
+      "type":"text",
+      "id":"title",
+      "label":"Title"
+    },
+      {
+    "type":"color",
+    "id":"heading_color",
+    "label":"Heading Color",
+  "default":"#c69794"
+  },
+        {
+        "type": "range",
+        "id": "heading_font",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Font Size",
+        "default": 25
+      },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "banner_first",
+          "label": "Banner First"
+        },
+        {
+          "value": "category_first",
+          "label": "Category First"
+        }
+      ],
+      "default": "category_first",
+      "label": "Layout"
+    },
+      {
+          "type": "checkbox",
+          "id": "enable_banner",
+          "default": true,
+          "label": "Enable Banner"
+   },
+     {
+          "type": "checkbox",
+          "id": "enable_category",
+          "default": true,
+          "label": "Enable Category"
+   },
+      {
+      "type": "header",
+      "content": "For Home....."
+    },
+    {
+      "type": "collection",
+      "id": "home_coll",
+      "label": "Collection"
+    },
+    {
+      "type": "image_picker",
+      "id": "home_b_img",
+      "label": "Banner Image"
+    },
+    {
+      "type": "url",
+      "id": "home_b_link",
+      "label": "Banner Image Url"
+    },
+    {
+      "type": "header",
+      "content": "For Baby....."
+    },
+    {
+      "type": "collection",
+      "id": "baby_coll",
+      "label": "Collection"
+    },
+    {
+      "type": "image_picker",
+      "id": "baby_b_img",
+      "label": "Banner Image"
+    },
+    {
+      "type": "url",
+      "id": "baby_b_link",
+      "label": "Banner Image Url"
+    }
+  ],
+  "blocks":[
+    {
+      "name":"For Home Category",
+      "type":"home_category",
+      "limit": 1,
+      "settings":[
+      {
+      "type": "image_picker",
+      "id": "home_img1",
+      "label": "Image [1]"
+    },
+    {
+      "type": "url",
+      "id": "home__link1",
+      "label": "Image Url [1]"
+    },
+             {
+      "type": "image_picker",
+      "id": "home_img2",
+      "label": "Image [2]"
+    },
+    {
+      "type": "url",
+      "id": "home__link2",
+      "label": "Image Url [2]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img3",
+      "label": "Image [3]"
+    },
+    {
+      "type": "url",
+      "id": "home__link3",
+      "label": "Image Url [3]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img4",
+      "label": "Image [4]"
+    },
+    {
+      "type": "url",
+      "id": "home__link4",
+      "label": "Image Url [4]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img5",
+      "label": "Image [5]"
+    },
+    {
+      "type": "url",
+      "id": "home__link5",
+      "label": "Image Url [5]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img6",
+      "label": "Image [6]"
+    },
+    {
+      "type": "url",
+      "id": "home__link6",
+      "label": "Image Url [6]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img7",
+      "label": "Image [7]"
+    },
+    {
+      "type": "url",
+      "id": "home__link7",
+      "label": "Image Url [7]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img8",
+      "label": "Image [8]"
+    },
+    {
+      "type": "url",
+      "id": "home__link8",
+      "label": "Image Url [8]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img9",
+      "label": "Image [9]"
+    },
+    {
+      "type": "url",
+      "id": "home__link9",
+      "label": "Image Url [9]"
+    },
+              {
+      "type": "image_picker",
+      "id": "home_img10",
+      "label": "Image [10]"
+    },
+    {
+      "type": "url",
+      "id": "home__link10",
+      "label": "Image Url [10]"
+    }
+      ]
+    },
+     {
+      "name":"For Baby Category",
+      "type":"baby_category",
+        "limit": 1,
+      "settings":[
+      {
+      "type": "image_picker",
+      "id": "baby_img1",
+      "label": "Image [1]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link1",
+      "label": "Image Url [1]"
+    },
+             {
+      "type": "image_picker",
+      "id": "baby_img2",
+      "label": "Image [2]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link2",
+      "label": "Image Url [2]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img3",
+      "label": "Image [3]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link3",
+      "label": "Image Url [3]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img4",
+      "label": "Image [4]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link4",
+      "label": "Image Url [4]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img5",
+      "label": "Image [5]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link5",
+      "label": "Image Url [5]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img6",
+      "label": "Image [6]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link6",
+      "label": "Image Url [6]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img7",
+      "label": "Image [7]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link7",
+      "label": "Image Url [7]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img8",
+      "label": "Image [8]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link8",
+      "label": "Image Url [8]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img9",
+      "label": "Image [9]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link9",
+      "label": "Image Url [9]"
+    },
+              {
+      "type": "image_picker",
+      "id": "baby_img10",
+      "label": "Image [10]"
+    },
+    {
+      "type": "url",
+      "id": "baby__link10",
+      "label": "Image Url [10]"
+    }
+      ]
+    }
+  ],
+  "presets":[
+    {
+    "name":"Banner According Collection",
+      "category":"Banner"
+    }
+  ]
+}
+{% endschema %}

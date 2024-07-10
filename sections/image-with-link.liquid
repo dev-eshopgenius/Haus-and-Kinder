@@ -1,0 +1,121 @@
+{%- style -%}
+  #image-{{ section.id }} .home-section-title{
+      font-size: {{ section.settings.heading_font }}px;
+    }
+  @media (max-width: 768px) {
+    #image-{{ section.id }} .home-section-title{
+      font-size: {{ section.settings.mobheading_font }}px;
+    }
+  }
+{%- endstyle -%}
+{% if section.settings.banner != blank %}
+  <div id="image-{{ section.id }}" class="imagewith-link-wrap  {{ section.settings.classname }}">
+    {% if section.settings.title != blank %}
+      <div class="title">
+        <h2 class="h4 carousel__title home-section-title mb-30 center" style="color:{{ section.settings.heading_color }};">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {% endif %}
+    <div class="image-wrap ">
+      {% if section.settings.imageurl != blank %}<a href="{{ section.settings.imageurl }}">{% endif %}
+      {% if section.settings.banner != blank %}
+        {{ section.settings.banner | image_url: width: 1024 | image_tag: loading: 'lazy', class: 'for-desktop' }}
+      {% endif %}
+      {% if section.settings.mobbanner != blank %}
+        {{ section.settings.mobbanner | image_url: width: 1024 | image_tag: loading: 'lazy', class: 'for-mobile' }}
+      {% endif %}
+      {% if section.settings.imageurl != blank %}</a>{% endif %}
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+"name": "Image with Link",
+"settings": [
+   {
+          "type": "select",
+          "id": "classname",
+          "options": [
+            {
+              "value": "no-any-class",
+              "label": "No Any Class"
+            },
+            {
+              "value": "top-spacing",
+              "label": "top-spacing"
+            },
+            {
+              "value": "gallery-nopadding  imgPadding",
+              "label": "gallery-nopadding  imgPadding"
+            },
+            {
+              "value": "imgPadding",
+              "label": "imgPadding"
+            }
+          ],
+          "default": "no-any-class",
+          "label": "Select Class"
+        },
+       {
+      "id": "title",
+      "type": "text",
+      "label": "Heading"
+    },
+        {
+          "type":"color",
+          "id":"heading_color",
+          "label":"Heading Color",
+        "default":"#c69794"
+        },
+        {
+        "type": "range",
+        "id": "heading_font",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Font Size",
+        "default": 25
+      },
+            {
+        "type": "range",
+        "id": "mobheading_font",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Mobile Font Size",
+        "default": 10
+      },
+
+  {
+    "type":"url",
+    "id":"imageurl",
+    "label":"Image Link"
+  },
+{
+  "type":"image_picker",
+  "id":"banner",
+  "label":"Banner"
+},
+  {
+  "type":"image_picker",
+  "id":"mobbanner",
+  "label":"Mobile Banner"
+}
+],
+"presets": [
+{
+"name": "Image with Link",
+"category": "Image"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

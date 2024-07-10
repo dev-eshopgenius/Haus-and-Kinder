@@ -1,0 +1,167 @@
+ {%- unless cart == empty -%}
+{% assign total_price = cart.total_price %}
+{% if settings.fg_enable %}
+  <div class="free_gift__main_wrap">
+    {% if settings.fg_uppertext != blank %}
+      <div class="fg_uppertext">
+        {{ settings.fg_uppertext }}
+      </div>
+    {% endif %}
+    {% if settings.fg_eligible_text != blank %}
+      <div class="fg_eligible_text" style="display:none;">
+        {{ settings.fg_eligible_text }}
+      </div>
+    {% endif %}
+    <div class="fg--prod-wrap">
+      {% for i in (1..2) %}
+        {% capture p %}fg_p_{{ i }}{% endcapture %}
+        {% capture pr %}fg_pr_{{ i }}{% endcapture %}
+        {% capture mgs %}fg_mgs_{{ i }}{% endcapture %}
+        {% capture fg_mgs_tr %}fg_mgs_tr_{{ i }}{% endcapture %}
+        {% capture fg_mgs_pa %}fg_mgs_pa_{{ i }}{% endcapture %}
+        {% capture free_prod_img %}free_prod_img{{ i }}{% endcapture %}
+        {% capture fg_belowtext %}fg_belowtext{{ i }}{% endcapture %}
+        {% assign threshold = settings[pr] | times: 100 %}
+        {% assign prod = settings[p] %}
+        {% assign mgs = settings[mgs] %}
+        {% assign cart_has_fg = false %}
+        {% assign rem = total_price | minus: threshold %}
+        {% for line_item in cart.items %}
+          {% capture pos %}pos_{{ i }}{% endcapture %}
+          {% if line_item.properties.__free_gift_pos == pos and rem > 0 %}
+            {% assign cart_has_fg = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% capture rem_money %}<span class="rem">{{ threshold | minus: total_price | money }}</span>{% endcapture %}
+        {% if prod.id == blank %}{% continue %}{% endif %}
+        <div class="add_free_gift--wrapper" pos="{{ i }}">
+          {% unless cart_has_fg %}
+            {% if free_prod_img != blank %}
+              <div class="fg--product-image">
+                {{
+                  settings[free_prod_img]
+                  | image_url: width: '100x100'
+                  | image_tag: class: 'fg_prod_img', loading: 'lazy'
+                }}
+              </div>
+            {% endif %}
+            {% if fg_belowtext != blank %}
+              <div class="fg_belowtext">
+                {{ settings[fg_belowtext] }}
+              </div>
+            {% endif %}
+            <div
+              class="ssame_ui add_free_gift--js {% if cart_has_fg %}hide{% endif %} {% unless total_price >= threshold %}disabled{% endunless %} {% if cart_has_fg %}added{% endif %}"
+              data-id="{{ prod.selected_or_first_available_variant.id }}"
+            >
+              {% if rem > 0 %}
+                {{ settings[fg_mgs_tr] }}
+              {% else %}
+                {{ mgs | replace: '#price#', rem_money }}
+              {% endif %}
+            </div>
+          {% else %}
+            <div class="ssame_ui add_free__success">
+              {{ settings[fg_mgs_pa] }}
+            </div>
+          {% endunless %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <style>
+            .popup-cart__content{padding-top: 15px;}
+            .hide { display: none !important; }
+            .ssame_ui strong {
+              font-weight: 600;
+            }
+
+            .free_gift__main_wrap {
+              display: flex;
+              padding: 10px;
+              gap: 15px;
+              {% unless settings['enable-get-zero'] %}
+                margin-top: 62px;
+              {% endunless %}
+            }
+
+            .add_free_gift--wrapper {
+
+              padding: 0;
+              border-radius: 10px;
+              /* border: 1px solid #fbe9cc; */
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #000;
+              font-size: 13px;
+              flex: 1 1 100%;
+              text-align: center;
+            }
+
+            .ssame_ui {
+              background: #DFB8B5;
+              border: 1.5px dashed #d0c0a5;
+              padding: 8px 10px;
+              border-radius: 10px;
+              font-size: 13px;
+              /* background: #fff; */
+              color: #000;
+              cursor: pointer;
+              line-height: 1.2;
+              flex: 1 1 100%;
+              height: 100%;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+            }
+        .ssame_ui.disabled {
+          background: transparent;
+        }
+            .ssame_ui p {
+              margin: 0;
+            }
+
+            .ssame_ui.added, .ssame_ui.disabled {
+              pointer-events: none;
+              border-style: solid;
+              background: transparent;
+            }
+
+            .ssame_ui.add_free__success {
+              border-style: solid;
+              pointer-events: none;
+              background: transparent;
+            }
+      .ssame_ui.loading {
+        position: relative;
+        font-size: 0;
+    }
+
+    .ssame_ui.loading:after {
+        content: "";
+        width: 25px;
+        height: 25px;
+        border: 2px solid currentColor;
+        border-radius: 50%;
+        border-bottom-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: rotate 0.3s infinite linear;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: translate(-50%, -50%) rotate(0deg)
+        }
+        to {
+            transform: translate(-50%, -50%) rotate(360deg)
+        }
+    }
+  </style>
+{% endif %}
+{%- endunless -%}

@@ -1,0 +1,6 @@
+{% comment %}<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1001 1001"><defs><style>.cls-1,.cls-2{fill:none;stroke:#746d6e;stroke-linecap:round;}.cls-1{stroke-linejoin:round;stroke-width:42px;}.cls-2{stroke-miterlimit:10;stroke-width:23.74px;}</style></defs><line class="cls-1" x1="167.4" y1="224.67" x2="282.63" y2="794.63"></line><line class="cls-1" x1="962.93" y1="366.34" x2="871.52" y2="788.81"></line><line class="cls-1" x1="871.01" y1="800.42" x2="293.49" y2="800.42"></line><line class="cls-1" x1="963" y1="360.06" x2="360" y2="360"></line><line class="cls-1" x1="264" y1="360" x2="302" y2="360"></line><line class="cls-1" x1="38.25" y1="223.5" x2="162.91" y2="223.5"></line><circle class="cls-2" cx="340.79" cy="895.02" r="46.48"></circle><circle class="cls-2" cx="815.4" cy="895.02" r="46.48"></circle></svg>
+{% endcomment %}
+
+{% if settings.cart_svg_icon != blank %}
+{{ settings.cart_svg_icon | image_url: width:'50' | image_tag: class:'cart_icon', loading:'lazy' }}
+{%- endif -%}

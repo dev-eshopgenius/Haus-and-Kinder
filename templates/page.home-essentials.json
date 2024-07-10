@@ -1,0 +1,387 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_link_N6mMX8": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/550_1_f05e57e3-086d-47eb-9625-415a1e68a61a.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/banner_home_plus1.jpg"
+      }
+    },
+    "tabs_with_collection_c4UW4r": {
+      "type": "tabs-with-collection",
+      "blocks": {
+        "collection_tab_yTBa8t": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Cushion",
+            "colletion": "cushion-covers",
+            "show_secondary_image": true,
+            "product_limit": 10
+          }
+        },
+        "collection_tab_yTWNgG": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Towels",
+            "colletion": "towels",
+            "show_secondary_image": true,
+            "product_limit": 10
+          }
+        },
+        "collection_tab_eE6fpR": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Dohars",
+            "colletion": "dohar",
+            "show_secondary_image": true,
+            "product_limit": 8
+          }
+        },
+        "collection_tab_PVpCCB": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "Curtains",
+            "colletion": "curtains",
+            "show_secondary_image": true,
+            "product_limit": 8
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_yTBa8t",
+        "collection_tab_yTWNgG",
+        "collection_tab_eE6fpR",
+        "collection_tab_PVpCCB"
+      ],
+      "settings": {
+        "title": "Shop All",
+        "enable_quick_add": true
+      }
+    },
+    "image_with_link_JQ4A9N": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/towel1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/towel1.jpg"
+      }
+    },
+    "block_image_with_text_jhiwQb": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_9RiFAd": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_135.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_135.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/set-of-6-towels"
+          }
+        },
+        "image_with_text_BPbyaP": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_136.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_136.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/set-of-2-bath-towels"
+          }
+        },
+        "image_with_text_qkDF8B": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_138.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_138.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/zero-twist"
+          }
+        },
+        "image_with_text_QEfGxh": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_137.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_137.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/set-of-4-hand-towels"
+          }
+        },
+        "image_with_text_WAUAgP": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Frame_139.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/Frame_139.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/set-of-12-face-towels"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_9RiFAd",
+        "image_with_text_BPbyaP",
+        "image_with_text_qkDF8B",
+        "image_with_text_QEfGxh",
+        "image_with_text_WAUAgP"
+      ],
+      "settings": {
+        "classname": "mayalso",
+        "heading": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_78YBtx": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Towels",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "towels",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_link_XWCypt": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/curtains1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/curtains1.jpg"
+      }
+    },
+    "featured_collection_tMnYLe": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Curtains",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "curtains",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_link_dpqq9z": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/dohar_1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/dohar_1.jpg"
+      }
+    },
+    "featured_collection_aghqx9": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Dohars",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "dohar",
+        "products_to_show": 9,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_link_jVmh6n": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/cushion_covers1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/cushion_covers1.jpg"
+      }
+    },
+    "featured_collection_D8LnMA": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Cushion Covers",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cushion-covers",
+        "products_to_show": 9,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_link_zBDqcd": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/pages\/bestseller_bedsheets",
+        "banner": "shopify:\/\/shop_images\/Shop_all_best_selling_bedsheets.gif",
+        "mobbanner": "shopify:\/\/shop_images\/Shop_all_best_selling_bedsheets.gif"
+      }
+    },
+    "featured_collection_zKY4KE": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "New Arrivals",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-all-bedsheets",
+        "products_to_show": 24,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_link_N6mMX8",
+    "tabs_with_collection_c4UW4r",
+    "image_with_link_JQ4A9N",
+    "block_image_with_text_jhiwQb",
+    "featured_collection_78YBtx",
+    "image_with_link_XWCypt",
+    "featured_collection_tMnYLe",
+    "image_with_link_dpqq9z",
+    "featured_collection_aghqx9",
+    "image_with_link_jVmh6n",
+    "featured_collection_D8LnMA",
+    "image_with_link_zBDqcd",
+    "featured_collection_zKY4KE"
+  ]
+}

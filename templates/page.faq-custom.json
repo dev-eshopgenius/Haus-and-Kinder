@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "e54a2fab-2b8a-47d6-96f0-d81b9d124f80": {
+      "type": "custom-page-header",
+      "blocks": {
+        "56e74fd3-5aa0-4cc6-9570-a9a64908389a": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 1: Swaddler",
+            "headingurl": "shopify:\/\/pages\/swaddler-custom"
+          }
+        },
+        "ad798f5f-62fc-491e-a1f0-04e35b7114eb": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 2: Transitional",
+            "headingurl": "shopify:\/\/pages\/transitional-custom"
+          }
+        },
+        "1b0435ef-fe1e-4d8d-bfa7-37bdba8ed621": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 3: Sleeping Bags",
+            "headingurl": "shopify:\/\/pages\/sleeping-bag-custom"
+          }
+        },
+        "09505f33-0a5d-4a54-b5ae-1f1e766c9e2e": {
+          "type": "header",
+          "settings": {
+            "heading": "Stage 4: Early Walker",
+            "headingurl": "shopify:\/\/pages\/early-walker-custom"
+          }
+        }
+      },
+      "block_order": [
+        "56e74fd3-5aa0-4cc6-9570-a9a64908389a",
+        "ad798f5f-62fc-491e-a1f0-04e35b7114eb",
+        "1b0435ef-fe1e-4d8d-bfa7-37bdba8ed621",
+        "09505f33-0a5d-4a54-b5ae-1f1e766c9e2e"
+      ],
+      "settings": {
+      }
+    },
+    "815ed5c9-3bf2-452e-91ef-ce775100e3ab": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_22.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_22.jpg"
+      }
+    },
+    "4b2f7c0b-e58b-4731-9f7c-a792064d7152": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_19.png",
+        "mobbanner": "shopify:\/\/shop_images\/image_19.png"
+      }
+    },
+    "785d98e5-d43b-42b7-b3f9-32e1f437dea3": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_1.jpg"
+      }
+    },
+    "b2c0254a-97c6-43d1-b64e-cccdefab3093": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_2.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_2.jpg"
+      }
+    },
+    "20273234-dbbd-4902-ae44-cbe3fa602c7c": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_23.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_23.jpg"
+      }
+    },
+    "9f9a75f3-5fa0-4761-8d43-b309437c1773": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_4.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_4.jpg"
+      }
+    },
+    "01c004bb-542f-493f-a396-ae6a5f813a05": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_5.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_5.jpg"
+      }
+    },
+    "4e5c5b8a-2e1a-4526-8573-9aeff9237961": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_20.png",
+        "mobbanner": "shopify:\/\/shop_images\/image_20.png"
+      }
+    },
+    "c7feebad-a1fa-4e67-805c-58df7995f1a1": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_6.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_6.jpg"
+      }
+    },
+    "1a694b65-32bb-4190-8537-b5744c6044cb": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_7.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_7.jpg"
+      }
+    },
+    "a37ae1bb-cb05-480d-b394-fc32ed484f13": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_8.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_8.jpg"
+      }
+    },
+    "2ffd070a-ed29-43ab-88ce-ab6dfe16b7f7": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_9.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_9.jpg"
+      }
+    },
+    "77f3d179-8c3f-4f91-b41d-939326555a3b": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "imgPadding",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/image_10.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/image_10.jpg"
+      }
+    }
+  },
+  "order": [
+    "e54a2fab-2b8a-47d6-96f0-d81b9d124f80",
+    "815ed5c9-3bf2-452e-91ef-ce775100e3ab",
+    "4b2f7c0b-e58b-4731-9f7c-a792064d7152",
+    "785d98e5-d43b-42b7-b3f9-32e1f437dea3",
+    "b2c0254a-97c6-43d1-b64e-cccdefab3093",
+    "20273234-dbbd-4902-ae44-cbe3fa602c7c",
+    "9f9a75f3-5fa0-4761-8d43-b309437c1773",
+    "01c004bb-542f-493f-a396-ae6a5f813a05",
+    "4e5c5b8a-2e1a-4526-8573-9aeff9237961",
+    "c7feebad-a1fa-4e67-805c-58df7995f1a1",
+    "1a694b65-32bb-4190-8537-b5744c6044cb",
+    "a37ae1bb-cb05-480d-b394-fc32ed484f13",
+    "2ffd070a-ed29-43ab-88ce-ab6dfe16b7f7",
+    "77f3d179-8c3f-4f91-b41d-939326555a3b"
+  ]
+}

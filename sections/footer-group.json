@@ -1,0 +1,89 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "219eb38e-0d72-4c81-bb39-8a82fc492af5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logos_in_alabaster-01_313x_1.png",
+            "image_width": 250,
+            "alignment": "center"
+          }
+        },
+        "29118918-26d5-46dd-8b09-2a1a26d1d9d2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About Us",
+            "menu": "footer"
+          }
+        },
+        "3955bc17-9969-4bc4-9156-0f42354b561a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "customer-service"
+          }
+        },
+        "663d8a0a-8096-4bf2-84db-19f9f292e8f2": {
+          "type": "newsletter",
+          "settings": {
+            "block_newsletter_enable": true,
+            "block_newsletter_heading": "Let's Keep In Touch!",
+            "background_color": "#aba6b6",
+            "text_color": "#ffffff",
+            "background_colormain": "#e5b6b3",
+            "text_colormain": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "219eb38e-0d72-4c81-bb39-8a82fc492af5",
+        "29118918-26d5-46dd-8b09-2a1a26d1d9d2",
+        "3955bc17-9969-4bc4-9156-0f42354b561a",
+        "663d8a0a-8096-4bf2-84db-19f9f292e8f2"
+      ],
+      "settings": {
+        "color_scheme": "#dd1d1d",
+        "background_color": "#d0cadf",
+        "background_colormain": "#c69794",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "e78a9fe1-14c0-491f-8044-e07eb941f14d": {
+      "type": "mobile-sticky-footer",
+      "settings": {
+        "show_sticky": true,
+        "menu_image": "shopify:\/\/shop_images\/menu_e0c1a621-aebb-436b-8f05-33b1339a5e4d.png",
+        "menu_text": "Menu",
+        "home_image": "shopify:\/\/shop_images\/Untitled_design_47adf648-4642-4ade-8546-e9b47bc08d46.png",
+        "home_text": "Home",
+        "home_url": "shopify:\/\/pages\/9-min-madness",
+        "baby_image": "shopify:\/\/shop_images\/baby-head-with-a-small-heart-outline.png",
+        "baby_text": "Baby",
+        "baby_url": "shopify:\/\/pages\/baby",
+        "offers_image": "shopify:\/\/shop_images\/discount-6.png",
+        "offers_text": "Flat 50%",
+        "offers_url": "shopify:\/\/pages\/bestseller_bedsheets",
+        "offers_url2": "shopify:\/\/pages\/bestseller_bedsheets",
+        "account_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "e78a9fe1-14c0-491f-8044-e07eb941f14d"
+  ]
+}

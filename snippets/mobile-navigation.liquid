@@ -1,0 +1,143 @@
+<div class="mobile-tab-nav-wrraper mobile-mega--menu-wrapper mobile-home-linklist-wrapper ">
+  <div class="home--linklist-container {% if section.settings.image2 != blank %}bottom_linklist_image{% endif %}">
+    <div class="linklist__content_wrap">
+      {% if section.settings.image != blank %}
+        <div class="linklist--image">
+          {% if section.settings.imglink != blank %}<a href="{{ section.settings.imglink }}">{% endif %}
+          {{ section.settings.image | image_url: width: 1024 | image_tag: class: 'tab_img1', loding: 'lazy' }}
+
+          {% if section.settings.imglink != blank %}</a>{% endif %}
+        </div>
+      {% endif %}
+      <div class="mobile_tab--main menu__navigation " style="background-color:{{ section.settings.bgcolor }};">
+        <div class="tab">
+          {% for block in section.blocks %}
+            {% if block.type == 'tab' %}
+              {% if block.settings.heading != blank %}
+                <div
+                  class="tablinks acc_tab_link  {% if forloop.first %}active{% endif %}"
+                  data-target="#{{ block.settings.heading }}"
+                >
+                  {{ block.settings.heading }}
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="tab_content-wrap">
+          {% for block in section.blocks %}
+            {% if block.type == 'tab' %}
+              <div
+                id="{{ block.settings.heading }}"
+                class="tabcontent acc_tab_content"
+                {% unless forloop.first %}
+                  style="display:none;"
+                {% endunless %}
+              >
+                <ul class="main_menu main--menu list-menu" role="list">
+                  {%- for link in block.settings.menu.links -%}
+                    <li class="firstlevel_item">
+                      {% if link.links == blank %}
+                        <a href="{{ link.url }}" class="link-item {% if link.links != blank %}has__link{% endif %}">
+                      {%- endif %}
+                      <label class="firstlevel_label">
+                        <span>{{ link.title | escape }}</span>
+                        {% if link.links != blank %}{% render 'icon-chevron' %}{% endif %}
+                      </label>
+                      {% if link.links == blank %} </a>{% endif %}
+                      {% if link.links != blank %}
+                        <ul class="second_level_menu" style="display:none;">
+                          {% for childlink in link.links %}
+                            <li class="secondlevel_item">
+                              <a
+                                href="{{ childlink.url }}"
+                                class="link-subitem {% if link.links != blank %}has__sublink{% endif %}"
+                              >
+                                {{- childlink.title }}
+                                {% if childlink.links != blank %}{% endif %}
+                              </a>
+                              {% if link.links != blank %}
+                                <ul class="third_level_menu" style="display:none;">
+                                  {% for grandchildlink in childlink.links %}
+                                    <li class="thirdlevel_item">
+                                      <a href="{{ grandchildlink.url }}">{{ grandchildlink.title }}</a>
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                              {% endif %}
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% if section.settings.show_footer_menu != blank %}
+        <div class="linklist--image  bottom">
+          <div class="mobile_tab-footer_menu" style="background-color:{{ section.settings.bgcolor }};">
+            {% for block in section.blocks %}
+              {% if block.type == 'footer_tab' %}
+                <ul class="main_menu main--menu list-menu" role="list">
+                  {%- for link in block.settings.fot_menu.links -%}
+                    <li class="firstlevel_item">
+                      <a href="{{ link.url }}" class="link-item {% if link.links != blank %}has__link{% endif %}">
+                        {{- link.title | escape }}
+                        {% if link.links != blank %} {% render 'icon-caret' %}{% endif %}
+                      </a>
+                      {% if link.links != blank %}
+                        <ul class="second_level_menu" style="display:none;">
+                          {% for childlink in link.links %}
+                            <li class="secondlevel_item">
+                              <a
+                                href="{{ childlink.url }}"
+                                class="link-subitem {% if link.links != blank %}has__sublink{% endif %}"
+                              >
+                                {{- childlink.title }}
+                                {% if childlink.links != blank %} {% render 'icon-caret' %}{% endif %}
+                              </a>
+                              {% if link.links != blank %}
+                                <ul class="third_level_menu" style="display:none;">
+                                  {% for grandchildlink in childlink.links %}
+                                    <li class="thirdlevel_item">
+                                      <a href="{{ grandchildlink.url }}">{{ grandchildlink.title }}</a>
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                              {% endif %}
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% if section.settings.image2 != blank %}
+          {% if section.settings.imglink2 != blank %} <a href="{{ section.settings.imglink2 }}">{% endif %}
+          {{ section.settings.image2 | image_url: width: 1024 | image_tag: class: 'tab_img2', loding: 'lazy' }}
+          {% if section.settings.imglink2 != blank %}</a>{% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<style>
+  {% if section.settings.active_tab != blank %}
+    .mobile_tab--main .tab button.tablinks.active{
+      background-color:{{ section.settings.active_tab }}
+    }
+  {% endif %}
+  {% if section.settings.unactive_tab != blank %}
+    mobile_tab--main .tab button.tablinks{
+      background-color:{{ section.settings.unactive_tab }}
+    }
+  {% endif %}
+</style>

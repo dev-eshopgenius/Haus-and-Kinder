@@ -1,0 +1,215 @@
+{% if section.settings.show_sticky %}
+  <div class="mobile-sticky-footer-wrapper section-for-mobile">
+    <div class="mobile--sticky-footer-item">
+      <div class="sticky--menu sticky--item">
+        {% if section.settings.menu_image != blank %}
+          <div class="menu--image">
+            {{ section.settings.menu_image | image_url: width: 40 | image_tag: loading: 'lazy', class: 'menu_image' }}
+          </div>
+        {% endif %}
+        {% if section.settings.menu_text != blank %}
+          <div class="menu--text">
+            {{ section.settings.menu_text }}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="{%if template=="index" %}active{% endif %} sticky--home sticky--item">
+        {% if section.settings.home_image != blank and section.settings.home_url != blank %}
+          <div class="home--image">
+            <a href="{{ section.settings.home_url }}">
+              {{ section.settings.home_image | image_url: width: 40 | image_tag: loading: 'lazy', class: 'home_image' }}
+            </a>
+          </div>
+        {% endif %}
+        {% if section.settings.home_text != blank and section.settings.home_url != blank %}
+          <div class="home--text">
+            <a href="{{ section.settings.home_url }}">
+              {{ section.settings.home_text }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="{%if template.suffix=="baby" %}active{% endif %} sticky--baby sticky--item">
+        {% if section.settings.baby_image != blank and section.settings.baby_url != blank %}
+          <div class="baby--image">
+            <a href="{{ section.settings.baby_url }}">
+              {{ section.settings.baby_image | image_url: width: 40 | image_tag: loading: 'lazy', class: 'baby_image' }}
+            </a>
+          </div>
+        {% endif %}
+        {% if section.settings.baby_text != blank and section.settings.baby_url != blank %}
+          <div class="baby--text">
+            <a href="{{ section.settings.baby_url }}">
+              {{ section.settings.baby_text }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="{%if collection.handle=="todays-deals" %}active{% endif %} sticky--offers sticky--item">
+        {% if section.settings.offers_image != blank and section.settings.offers_url != blank %}
+          <div class="offers--image">
+            <a
+              {% if request.path contains 'baby' %}
+                href="{{ section.settings.offers_url2 }}"
+              {% else %}
+                href="{{ section.settings.offers_url }}"
+              {% endif %}
+            >
+              {{
+                section.settings.offers_image
+                | image_url: width: 40
+                | image_tag: loading: 'lazy', class: 'offers_image'
+              }}
+            </a>
+          </div>
+        {% endif %}
+        {% if section.settings.offers_text != blank and section.settings.offers_url != blank %}
+          <div class="offers--text">
+            <a
+              {% if request.path contains 'baby' %}
+                href="{{ section.settings.offers_url2 }}"
+              {% else %}
+                href="{{ section.settings.offers_url }}"
+              {% endif %}
+            >
+              {{ section.settings.offers_text }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      {% comment %}
+        <div class="sticky--accounts sticky--item">
+          {% if  section.settings.account_image != blank %}
+          <div class="accounts--image">
+           {{ section.settings.account_image |image_url: width:40 | image_tag: loading:'lazy', class:'account_image' }}
+          </div>
+          {% endif %}
+          {% if  section.settings.account_text != blank %}
+          <div class="accounts--text">
+            {{ section.settings.account_text}}
+          </div>
+          {% endif %}
+        </div>
+      {% endcomment %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+"name": "Mobile Footer Sticky",
+"settings": [
+{
+"type":"checkbox",
+"id":"show_sticky",
+"label":"Show Sticky Footer"
+},
+{
+"type":"header",
+"content":"Menu Related Settings"
+},
+{
+"type":"image_picker",
+"id":"menu_image",
+"label":"Menu Icon Image"
+},
+{
+"type":"text",
+"id":"menu_text",
+"label":"Menu Text"
+},
+{
+"type":"header",
+"content":"Home Related Settings"
+},
+{
+"type":"image_picker",
+"id":"home_image",
+"label":"Home Icon Image"
+},
+{
+"type":"text",
+"id":"home_text",
+"label":"Home Text"
+},
+{
+"type":"url",
+"id":"home_url",
+"label":"Home Url"
+},
+{
+"type":"header",
+"content":"Baby Related Settings"
+},
+{
+"type":"image_picker",
+"id":"baby_image",
+"label":"Baby Icon Image"
+},
+{
+"type":"text",
+"id":"baby_text",
+"label":"Baby Text"
+},
+{
+"type":"url",
+"id":"baby_url",
+"label":"Baby Url"
+},
+{
+"type":"header",
+"content":"Offers Related Settings"
+},
+{
+"type":"image_picker",
+"id":"offers_image",
+"label":"Offers Icon Image"
+},
+{
+"type":"text",
+"id":"offers_text",
+"label":"Offers Text"
+},
+{
+"type":"url",
+"id":"offers_url",
+"label":"Offers Url"
+},
+{
+"type":"url",
+"id":"offers_url2",
+"label":"Offers Url For Baby"
+},
+{
+"type":"header",
+"content":"Account Related Settings"
+},
+{
+"type":"image_picker",
+"id":"account_image",
+"label":"Account Icon Image"
+},
+{
+"type":"text",
+"id":"account_text",
+"label":"Account Text"
+}
+],
+  "presets":[
+    {
+      "name":"Mobile Sticky Footer",
+      "category":"Footer"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

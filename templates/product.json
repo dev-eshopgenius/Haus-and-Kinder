@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "5b509269-dda4-4409-9fba-fbbe7cc3039c": {
+          "type": "shopify:\/\/apps\/webrex-seo-optimizer\/blocks\/breadcrumbSection\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+          "settings": {
+            "firstItemText": "Home",
+            "seperateSymbol": ">",
+            "breadcrumbAlignment": "flex-start",
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "spaceBetween": 0,
+            "marginBottom": 0,
+            "mainColour": "#000000",
+            "seperateColour": "#000000",
+            "hoverColor": "#000000",
+            "uppercase": false,
+            "hoverUnderline": true,
+            "allCollectionsLabel": "All Products",
+            "menu": "",
+            "showProductTitle": true,
+            "priorityCollection": "smallest",
+            "blocked_collection_list": [
+
+            ],
+            "showBlogBreadcrumbs": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "ff14ea53-c679-467b-9716-7b86ab29f82f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "icon": "none",
+            "open_row": true,
+            "show_description": true,
+            "content": "",
+            "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "atc_backgroundcolor": "#eca1a1",
+            "text_backcolor": "",
+            "buy_backgroundcolor": "#736c6d"
+          }
+        },
+        "d618a262-3398-472d-b857-716c6b11cb0d": {
+          "type": "img_with_link",
+          "settings": {
+            "home_coll": "home-all-products",
+            "home_b_img": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg",
+            "home_b_link": "shopify:\/\/pages\/9-min-madness",
+            "baby_coll": "baby",
+            "baby_b_img": "shopify:\/\/shop_images\/6_103e760e-7189-49a8-a9be-b60f43e333be.jpg",
+            "baby_b_link": "shopify:\/\/pages\/9-min-madness"
+          }
+        },
+        "40623fd4-de28-419f-becb-72af5d99d064": {
+          "type": "product__offers",
+          "disabled": true,
+          "settings": {
+            "offertitle": "Product Offers:",
+            "today_deal_text": "",
+            "today_deal_subtext": "",
+            "heading1": "2CUSHIONS",
+            "subheading1": "Get 2 cushion covers @ 1299\/-",
+            "heading2": "BABY10",
+            "subheading2": "Get 10% off on Baby products on purchase of 2499\/- and above",
+            "heading3": "",
+            "subheading3": "",
+            "heading4": "",
+            "subheading4": "",
+            "heading5": "",
+            "subheading5": "",
+            "heading6": "",
+            "subheading6": "",
+            "heading7": "",
+            "subheading7": "",
+            "heading8": "",
+            "subheading8": "",
+            "heading9": "",
+            "subheading9": "",
+            "heading10": "",
+            "subheading10": ""
+          }
+        },
+        "15715219-21e8-43a8-9e43-fdc0690d0efd": {
+          "type": "icon-with-text",
+          "settings": {
+            "classname": "",
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/return_4ee0886f-52b7-4fc8-a981-c6b185a001fc.png",
+            "heading_1": "Easy Returns",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/money.png",
+            "heading_2": "Cash on Delivery",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/delivery.png",
+            "heading_3": "Fast Delivery"
+          }
+        },
+        "83f165f8-29c5-4960-a105-ed99dd6360d6": {
+          "type": "payment_block",
+          "settings": {
+            "paytitle": "Secure Checkout With:",
+            "payment_image1": "shopify:\/\/shop_images\/upi_logo_icon_169316.png",
+            "payment_image2": "shopify:\/\/shop_images\/MasterCard_Logo_svg.png",
+            "payment_image3": "shopify:\/\/shop_images\/Visa_Inc__logo_svg.png"
+          }
+        }
+      },
+      "block_order": [
+        "5b509269-dda4-4409-9fba-fbbe7cc3039c",
+        "title",
+        "price",
+        "variant_picker",
+        "ff14ea53-c679-467b-9716-7b86ab29f82f",
+        "buy_buttons",
+        "d618a262-3398-472d-b857-716c6b11cb0d",
+        "40623fd4-de28-419f-becb-72af5d99d064",
+        "15715219-21e8-43a8-9e43-fdc0690d0efd",
+        "83f165f8-29c5-4960-a105-ed99dd6360d6"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "enable_similer_item": true,
+        "show_section": true,
+        "heading": "<strong>You may also like<\/strong>",
+        "heading_size": "h1",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "d6486eb5-20e4-4f10-99c7-b3f440e72156": {
+      "type": "product-details-section",
+      "settings": {
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "<strong>Featured Products<\/strong>",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "enable_quick_add": true,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 16,
+        "padding_bottom": 28
+      }
+    },
+    "alireviews-section-1708338899516": {
+      "type": "apps",
+      "blocks": {
+        "alireviews-block-1708338899516": {
+          "type": "shopify:\/\/apps\/ali-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "product": "",
+            "name": "Review Box 1",
+            "vertical_alignment": "5",
+            "rating_color": "#eca1a1",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1f1f1f"
+          }
+        }
+      },
+      "block_order": [
+        "alireviews-block-1708338899516"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "banner_according_collection_penerk": {
+      "type": "banner-according-collection",
+      "blocks": {
+        "home_category_nEtp7p": {
+          "type": "home_category",
+          "settings": {
+            "home_img1": "shopify:\/\/shop_images\/Frame_39.png",
+            "home__link1": "shopify:\/\/collections\/king-size-bedsheets",
+            "home_img2": "shopify:\/\/shop_images\/Frame_38.png",
+            "home__link2": "shopify:\/\/collections\/double-bedsheets",
+            "home_img3": "shopify:\/\/shop_images\/Frame_48.png",
+            "home__link3": "shopify:\/\/collections\/curtains",
+            "home_img4": "shopify:\/\/shop_images\/Frame_44.png",
+            "home__link4": "shopify:\/\/collections\/cushion-covers",
+            "home_img5": "shopify:\/\/shop_images\/Frame_42.png",
+            "home__link5": "shopify:\/\/collections\/towels",
+            "home_img6": "shopify:\/\/shop_images\/Frame_47.png",
+            "home__link6": "shopify:\/\/collections\/dohar",
+            "home_img7": "shopify:\/\/shop_images\/Frame_46.png",
+            "home__link7": "shopify:\/\/collections\/comforters-for-double-bed",
+            "home_img8": "shopify:\/\/shop_images\/Frame_36.png",
+            "home__link8": "shopify:\/\/collections\/single-bedsheets",
+            "home__link9": "",
+            "home__link10": ""
+          }
+        },
+        "baby_category_UMpEyU": {
+          "type": "baby_category",
+          "settings": {
+            "baby_img1": "shopify:\/\/shop_images\/Frame_49.png",
+            "baby__link1": "shopify:\/\/collections\/swaddle-packs-for-baby-boys",
+            "baby_img2": "shopify:\/\/shop_images\/Frame_52.png",
+            "baby__link2": "shopify:\/\/collections\/baby-feeding-pillow-1-baby",
+            "baby_img3": "shopify:\/\/shop_images\/Frame_60.png",
+            "baby__link3": "shopify:\/\/collections\/baby-gift-box",
+            "baby_img4": "shopify:\/\/shop_images\/Frame_51.png",
+            "baby__link4": "shopify:\/\/collections\/baby-knitted-blanket-baby",
+            "baby_img5": "shopify:\/\/shop_images\/Frame_57.png",
+            "baby__link5": "shopify:\/\/pages\/baby-fashion",
+            "baby_img6": "shopify:\/\/shop_images\/Frame_53.png",
+            "baby__link6": "shopify:\/\/collections\/carrier-nest-baby",
+            "baby_img7": "shopify:\/\/shop_images\/Frame_50.png",
+            "baby__link7": "shopify:\/\/collections\/dreamsack-stage-1-baby",
+            "baby_img8": "shopify:\/\/shop_images\/Frame_54.png",
+            "baby__link8": "shopify:\/\/collections\/sleeping-pod-baby",
+            "baby_img9": "shopify:\/\/shop_images\/Frame_56.png",
+            "baby__link9": "shopify:\/\/collections\/baby-playmat-baby",
+            "baby_img10": "shopify:\/\/shop_images\/Frame_59.png",
+            "baby__link10": "shopify:\/\/collections\/baby-diaper-bags"
+          }
+        }
+      },
+      "block_order": [
+        "home_category_nEtp7p",
+        "baby_category_UMpEyU"
+      ],
+      "settings": {
+        "classname": "mayalso",
+        "title": "You May Also Like",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "layout": "category_first",
+        "enable_banner": true,
+        "enable_category": true,
+        "home_coll": "home-all-products",
+        "home_b_img": "shopify:\/\/shop_images\/baby_led-1.jpg",
+        "home_b_link": "shopify:\/\/pages\/baby",
+        "baby_coll": "baby",
+        "baby_b_img": "shopify:\/\/shop_images\/home_essentials-1.jpg",
+        "baby_b_link": "\/"
+      }
+    },
+    "spacer_CiY9bJ": {
+      "type": "spacer",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "product_grid_according_collection_wayeGg": {
+      "type": "product-grid-according-collection",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "home_coll": "home-all-products",
+        "grid_home": "shop-all-bedsheets",
+        "baby_coll": "baby",
+        "grid_baby": "variant-baby",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": true,
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
+    },
+    "e032f902-a4f3-4570-8b40-f4d4e5597c55": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14816223363190__e032f902-a4f3-4570-8b40-f4d4e5597c55-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Additional Information",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.additional_information1 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14816223363190__e032f902-a4f3-4570-8b40-f4d4e5597c55-collapsible_row-1"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d6486eb5-20e4-4f10-99c7-b3f440e72156",
+    "related-products",
+    "alireviews-section-1708338899516",
+    "banner_according_collection_penerk",
+    "spacer_CiY9bJ",
+    "product_grid_according_collection_wayeGg",
+    "e032f902-a4f3-4570-8b40-f4d4e5597c55"
+  ]
+}

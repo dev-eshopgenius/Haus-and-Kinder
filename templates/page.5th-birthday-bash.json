@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "29bff4c2-7c22-45b1-b214-fe7f99617ff4": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/5bb_540x100_birthday_unit_6.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/5bb_540x100_birthday_unit_6.jpg"
+      }
+    },
+    "block_image_with_text_9e4UxD": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "image_with_text_X6yWCf": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_92fc7ba9-bd0e-4667-bfbc-10dd7882a342.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/1_92fc7ba9-bd0e-4667-bfbc-10dd7882a342.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_dYTHx9": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/6_47d3beda-0010-46a2-803d-519be2f3eabd.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/6_47d3beda-0010-46a2-803d-519be2f3eabd.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_D4rW4e": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/7_6fca0c80-a9dd-4378-ac5e-d788f574cca3.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/7_6fca0c80-a9dd-4378-ac5e-d788f574cca3.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_WUp3wr": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_XVTLPn": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_MDjYhw": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_3keTJP": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        },
+        "image_with_text_ej4ejG": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/5_b7bcbcdd-cb6c-42dd-b806-c2d06ec618cb.jpg",
+            "block_content": "",
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_X6yWCf",
+        "image_with_text_dYTHx9",
+        "image_with_text_D4rW4e",
+        "image_with_text_WUp3wr",
+        "image_with_text_XVTLPn",
+        "image_with_text_MDjYhw",
+        "image_with_text_3keTJP",
+        "image_with_text_ej4ejG"
+      ],
+      "settings": {
+        "classname": "home_block-wrapper",
+        "heading": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "2e578cfe-b10f-4a0a-a4c3-3702e5a90e37": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Festive_Gifts_Whatsapp_2.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/Festive_Gifts_Whatsapp_2.jpg"
+      }
+    },
+    "4690c598-980b-4459-b139-9f5841e86668": {
+      "type": "tabs-with-collection",
+      "blocks": {
+        "e8022689-c6f6-400e-9a8e-f2478d8cca6a": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "",
+            "colletion": "bestsellers",
+            "show_secondary_image": false,
+            "product_limit": 16
+          }
+        },
+        "558022b5-b25f-42ef-b59e-7b7d5184de7b": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "New Launch",
+            "colletion": "9-min-sale",
+            "show_secondary_image": true,
+            "product_limit": 16
+          }
+        },
+        "8a1bfe62-4d5e-4ad4-8c18-aea1f2855579": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "bestseller",
+            "colletion": "cushion-covers",
+            "show_secondary_image": true,
+            "product_limit": 16
+          }
+        }
+      },
+      "block_order": [
+        "e8022689-c6f6-400e-9a8e-f2478d8cca6a",
+        "558022b5-b25f-42ef-b59e-7b7d5184de7b",
+        "8a1bfe62-4d5e-4ad4-8c18-aea1f2855579"
+      ],
+      "settings": {
+        "title": "FLAT 60% OFF",
+        "enable_quick_add": true
+      }
+    },
+    "672a7787-9183-4740-a110-0f4fa5a607bb": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "top-spacing",
+        "title": "",
+        "imageurl": "shopify:\/\/collections",
+        "banner": "shopify:\/\/shop_images\/5BB-Steal-Deal-Banner-final-_2_1.png",
+        "mobbanner": "shopify:\/\/shop_images\/5BB-Steal-Deal-Banner-final-_2_1.png"
+      }
+    },
+    "ecfc819e-98d0-461f-9077-40bbc522ae96": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "top-spacing",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Final_c99a20da-c81d-4d2f-9d79-b364c4c192b5.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/Final_c99a20da-c81d-4d2f-9d79-b364c4c192b5.jpg"
+      }
+    },
+    "8f33c52d-e99f-4e35-970d-7e05564f6ad2": {
+      "type": "block-image-with-text",
+      "blocks": {
+        "51e2d2fb-5fee-4891-850f-65c9282bbb69": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_21a4b905-497e-4c84-adf8-6958d54fcdbc.png",
+            "mobblock_image": "shopify:\/\/shop_images\/1_21a4b905-497e-4c84-adf8-6958d54fcdbc.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/steal-deal"
+          }
+        },
+        "28275083-ad4c-4b02-a684-e0d04bf2c7ab": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/3_e7434614-c993-451e-83e8-dd934946c1b5.png",
+            "mobblock_image": "shopify:\/\/shop_images\/3_e7434614-c993-451e-83e8-dd934946c1b5.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/set-of-4-hand-towels"
+          }
+        },
+        "d5cdb0f9-b6b1-44f5-af82-78980a442dfb": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/2_1_95b22097-af1a-47cf-a198-25ccf2ce9994.png",
+            "mobblock_image": "shopify:\/\/shop_images\/2_1_95b22097-af1a-47cf-a198-25ccf2ce9994.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/swaddle-pack-of-2-3"
+          }
+        },
+        "1eef193c-0118-4034-a5c1-0d628554d9d0": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/4_1_17358da1-13c8-4052-9122-4f7648e11de2.png",
+            "mobblock_image": "shopify:\/\/shop_images\/4_1_17358da1-13c8-4052-9122-4f7648e11de2.png",
+            "block_content": "",
+            "block_link": "shopify:\/\/products\/flat-crib-sheet-120-180cm-100-cotton"
+          }
+        },
+        "image_with_text_YygaUz": {
+          "type": "image_with_text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/6_47d3beda-0010-46a2-803d-519be2f3eabd.jpg",
+            "mobblock_image": "shopify:\/\/shop_images\/6_47d3beda-0010-46a2-803d-519be2f3eabd.jpg",
+            "block_content": "",
+            "block_link": "shopify:\/\/collections\/8pm-deals"
+          }
+        }
+      },
+      "block_order": [
+        "51e2d2fb-5fee-4891-850f-65c9282bbb69",
+        "28275083-ad4c-4b02-a684-e0d04bf2c7ab",
+        "d5cdb0f9-b6b1-44f5-af82-78980a442dfb",
+        "1eef193c-0118-4034-a5c1-0d628554d9d0",
+        "image_with_text_YygaUz"
+      ],
+      "settings": {
+        "classname": "",
+        "heading": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fb431248-df78-4ce3-8a24-412dab992f94": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "top-spacing",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Final_5BB_Lucky_Cumulative_Offers.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/Final_5BB_Lucky_Cumulative_Offers.jpg"
+      }
+    },
+    "7db57589-cd03-4c90-9b47-01050b476abc": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "top-spacing",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/5BB_Terms_Conditions.png",
+        "mobbanner": "shopify:\/\/shop_images\/5BB_Terms_Conditions.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "29bff4c2-7c22-45b1-b214-fe7f99617ff4",
+    "block_image_with_text_9e4UxD",
+    "2e578cfe-b10f-4a0a-a4c3-3702e5a90e37",
+    "4690c598-980b-4459-b139-9f5841e86668",
+    "672a7787-9183-4740-a110-0f4fa5a607bb",
+    "ecfc819e-98d0-461f-9077-40bbc522ae96",
+    "8f33c52d-e99f-4e35-970d-7e05564f6ad2",
+    "fb431248-df78-4ce3-8a24-412dab992f94",
+    "7db57589-cd03-4c90-9b47-01050b476abc"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b56d1cb8-437f-4a3a-903c-9f513f9382be": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Buy_2_999-03.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/Buy_2_999-03.jpg"
+      }
+    },
+    "16a8b7a4-1edd-42ff-ac6a-5920a02b7467": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/BOGO_HOME_Kalki_overlay_Gif_1.gif",
+        "mobbanner": "shopify:\/\/shop_images\/BOGO_HOME_Kalki_overlay_Gif_1.gif"
+      }
+    },
+    "7c9e0cb4-dbb3-42ad-a6f4-50fc12043854": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Summer Fashion",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "summer-fashion",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "1dccc73c-d697-4ccd-a52e-27f493192909": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Diapering Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "baby-diaper-bag-baby",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "19df2a6a-7560-415b-802d-a85bb9647070": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Dreamsack",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "dreamsack-stage-1-baby",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "d5ae8216-e8bd-488a-8cbf-06a8d200223a": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Onesies",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "onesies-baby",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "25bfcc74-890e-4dfa-aff2-778ffffdb580": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "title": "",
+        "imageurl": "shopify:\/\/collections\/clothing-collection-baby",
+        "banner": "shopify:\/\/shop_images\/Buy_2_999-01.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/Buy_2_999-01.jpg"
+      }
+    },
+    "1f55328e-efa0-47db-8987-71ece37e39df": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "",
+        "title": "Head to Toe, a Babies place",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "hair-accesory-baby",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "tabs_with_collection_7HAMNn": {
+      "type": "tabs-with-collection",
+      "blocks": {
+        "collection_tab_Mym7gn": {
+          "type": "collection_tab",
+          "settings": {
+            "colletion_name": "",
+            "colletion": "baby",
+            "show_secondary_image": true,
+            "product_limit": 33
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_Mym7gn"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_quick_add": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b56d1cb8-437f-4a3a-903c-9f513f9382be",
+    "16a8b7a4-1edd-42ff-ac6a-5920a02b7467",
+    "7c9e0cb4-dbb3-42ad-a6f4-50fc12043854",
+    "1dccc73c-d697-4ccd-a52e-27f493192909",
+    "19df2a6a-7560-415b-802d-a85bb9647070",
+    "d5ae8216-e8bd-488a-8cbf-06a8d200223a",
+    "25bfcc74-890e-4dfa-aff2-778ffffdb580",
+    "1f55328e-efa0-47db-8987-71ece37e39df",
+    "tabs_with_collection_7HAMNn"
+  ]
+}

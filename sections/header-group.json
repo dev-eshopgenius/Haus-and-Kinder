@@ -1,0 +1,39 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "cc725181-2f77-420a-a32e-f483b325af3a": {
+      "type": "header-upper",
+      "settings": {
+        "check": true,
+        "text1": "H&K Home",
+        "main_url": "\/",
+        "text2": "H&K Baby",
+        "baby_url": "shopify:\/\/pages\/baby",
+        "backgroundcolor": "#f5f5f5"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-center",
+        "menu": "home-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "cc725181-2f77-420a-a32e-f483b325af3a",
+    "header"
+  ]
+}

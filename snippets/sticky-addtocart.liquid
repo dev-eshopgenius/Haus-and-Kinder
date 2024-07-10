@@ -1,0 +1,88 @@
+{% if template.name == 'product' %}
+  <div class="sticky--atc-wrapper" style="display:none;">
+    <div class="sticky--content-wrap">
+      <div class="container">
+        <div class="image--price-wrapper">
+          <div class="product-image-wrap">
+            {{ product.featured_image | image_url: width: '100' | image_tag: loading: 'lazy', class: 'sticky-prod' }}
+          </div>
+
+          <div
+            class="no-js-hidden sticky--price-wrap"
+            id="price-{{ section.id }}"
+            role="status"
+            {{ block.shopify_attributes }}
+          >
+            <div class="product__title" {{ block.shopify_attributes }}>
+              <h1>{{ product.title | escape }}</h1>
+              <a href="{{ product.url }}" class="product__title">
+                <h2 class="h1">
+                  {{ product.title | escape }}
+                </h2>
+              </a>
+            </div>
+            {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+          </div>
+        </div>
+ 
+        <div class="sticky--atc-button">
+          <div style="display:none;" id="variant-radios-_____section_id"
+            data-selected-id="{{ current_variant.id }}"
+            class="no-js-hidden"
+            data-section="_____section_id"
+            data-url="{{ product.url }}"
+            {% if update_url == false %}
+              data-update-url="false"
+            {% endif %}
+            data-current_variant="{{ current_variant | json | escape }}"
+          >
+            {%- for option in product.options_with_values -%}
+              {% assign clr_option_labels = settings.clr_options | default: 'Color, Colour, Frabre' | downcase %}
+              {% assign option_name_downcase = option.name | downcase %}
+              {% assign this_option_size = option.values.size %}
+              <fieldset
+                class="js product-form__input {% if this_option_size <= 1 %} hidden{% endif %} {% if clr_option_labels contains option_name_downcase %}color-fieldset{% endif %}"
+                data-pos="{{ option.position }}"
+              >
+                <legend class="form__label">
+                  <span>{{ option.name }}</span> 
+                  <!-- <span data-selected-option>{{ option.values[0] }}</span> -->
+                </legend>
+                {% render 'product-variant-options', product: product, option: option, picker_type: 'button' %}
+              </fieldset>
+            {%- endfor -%}
+            <script type="application/json">
+              {{ product.variants | json }}
+            </script>
+            <script>
+              window.customize_product = {
+                {%- for variant in product.variants -%}
+                  {% capture extra_images %}{%- for image in variant.metafields.custom.extra_images.value -%}{{ image | img_url: 'master' }}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}{%- endcapture -%}
+                  "variant__{{ variant.id }}" : {
+                  "id": {{ variant.id | json }},
+                  "id_with_availability": { "available": {{ variant.available | json }}, "id": {{ variant.id | json }} },
+                  "price": {{ variant.price | json }},
+                  "compare_at_price": {{ variant.compare_at_price | default: variant.price | json }},
+                  "featured_media_url": "{% if variant.featured_media != blank %}{{ variant.featured_media.preview_image.src | img_url: 'master' }}{% endif %}",
+                  "metafields": {
+                    "extra_images": {{ extra_images | split: ',' | json }},
+                    "customize_featured_image": "{%- if variant.metafields.custom.customize_featured_image != blank -%}{{ variant.metafields.custom.customize_featured_image | img_url: 'master' }}{%- endif -%}"
+                  }
+                }{%- unless forloop.last -%},{%- endunless -%}
+                {%- endfor -%}
+              }
+            </script>
+          </div>
+  
+          {%- render 'buy-buttons',
+            block: block,
+            product: product,
+            product_form_id: product_form_id,
+            section_id: section.id,
+            show_pickup_availability: true
+          -%}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

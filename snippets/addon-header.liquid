@@ -1,0 +1,11 @@
+{% if template.name == 'product' or template.name == 'collection' %}
+  <div class="addon--heade-wrap section-for-mobile">
+    <a href="javascript&colon;history.back()">
+      {% render 'icon-backspace' %}
+
+      <span class="collection-title">
+        {{ collection.title }}
+      </span>
+    </a>
+  </div>
+{% endif %}

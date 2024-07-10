@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "930fb1e7-2349-4fd3-852c-c80b50a59666": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Copy_of_PPS_Landing_Page_Banner_1.gif"
+      }
+    },
+    "c7f85e25-01eb-4824-81d5-1aae8e73e447": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/PPS_Gif_1.gif"
+      }
+    },
+    "8a1b640b-722b-4321-bef4-3027dc4fd37a": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/PPS_Gif.gif"
+      }
+    },
+    "b16a6b7f-6d04-480e-8518-504773d725cc": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/Mobile-size-banner.jpg"
+      }
+    },
+    "bedc7021-46fa-4d0a-90cd-6360d72ac9e7": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "shopify:\/\/collections\/variant-baby",
+        "banner": "shopify:\/\/shop_images\/menu_1.jpg"
+      }
+    },
+    "7a69fa2f-8073-4971-a536-b5ab7e897b8f": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "",
+        "imageurl": "shopify:\/\/pages\/pink-sale",
+        "banner": "shopify:\/\/shop_images\/PPS_Overlay_GIF.gif"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "930fb1e7-2349-4fd3-852c-c80b50a59666",
+    "c7f85e25-01eb-4824-81d5-1aae8e73e447",
+    "8a1b640b-722b-4321-bef4-3027dc4fd37a",
+    "b16a6b7f-6d04-480e-8518-504773d725cc",
+    "bedc7021-46fa-4d0a-90cd-6360d72ac9e7",
+    "7a69fa2f-8073-4971-a536-b5ab7e897b8f"
+  ]
+}

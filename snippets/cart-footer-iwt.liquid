@@ -1,0 +1,22 @@
+{% if settings.enable_footer %}
+  <div class="cart-footer-iwt footer--wrapper">
+    <div class="footer--iwt-wrap">
+      {% for i in (1..3) %}
+        {% capture icon_img %}icon{{ i }}{% endcapture %}
+        {% capture icontext %}icontext{{ i }}{% endcapture %}
+        {% if settings[icon_img] != blank or settings[icontext] != blank %}
+          <div class="content-wrapp content__{{ forloop.index }}">
+            {% if settings[icon_img] != blank %}
+              <div class="icon_img">
+                {{ settings[icon_img] | image_url: width: '30' | image_tag: loading: 'lazy', class: 'f_carticon' }}
+              </div>
+            {% endif %}
+            {% if settings[icontext] != blank %}
+              <h4>{{ settings[icontext] }}</h4>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

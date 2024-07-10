@@ -1,0 +1,446 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_link_JrNz9r": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/collections\/swaddle-packs-for-baby-boys",
+        "banner": "shopify:\/\/shop_images\/swaddle1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/swaddle1.jpg"
+      }
+    },
+    "slideshow_QfNAq7": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PMXJYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s1wwaddle226.png",
+            "mobimage": "shopify:\/\/shop_images\/s1wwaddle226.png",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_WxUV6z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2ndwaddle226.png",
+            "mobimage": "shopify:\/\/shop_images\/2ndwaddle226_2f2303f4-11f3-44bb-801f-c345c13e3519.png",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_PMXJYc",
+        "slide_WxUV6z"
+      ],
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "",
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection_hjDgda": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Muslin Swaddles",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "swaddle-packs-for-baby-boys",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "slideshow_qWL8dK": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3wR7rb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550_1ST_-1.jpg",
+            "mobimage": "shopify:\/\/shop_images\/dream_sack_n_new_version-1.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_zgTVPp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550_2ND1.jpg",
+            "mobimage": "shopify:\/\/shop_images\/2nd_frame1_0e351b70-23c0-4270-9e5b-5f7541111528.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_PMdeiA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550_3rd.jpg",
+            "mobimage": "shopify:\/\/shop_images\/3rd_frame_1_7f75e834-34bf-4953-ba50-a6346638f1b2.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bmwnNK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550_4.jpg",
+            "mobimage": "shopify:\/\/shop_images\/4th_1_6e214c97-8215-4095-847a-d53dfffa3367.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DwQwag": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5th.jpg",
+            "mobimage": "shopify:\/\/shop_images\/5th1_ba376445-ea71-42fd-a992-55227de11d6c.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xmAPAw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/550_1.jpg",
+            "mobimage": "shopify:\/\/shop_images\/6th1_b8419b99-0db4-4446-8e62-ca14f60e7f56.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d4VmJF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7th.jpg",
+            "mobimage": "shopify:\/\/shop_images\/7th1_5cd239aa-d9c5-4d68-a9c3-47e603dcea73.jpg",
+            "image_link": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3wR7rb",
+        "slide_zgTVPp",
+        "slide_PMdeiA",
+        "slide_bmwnNK",
+        "slide_DwQwag",
+        "slide_xmAPAw",
+        "slide_d4VmJF"
+      ],
+      "settings": {
+        "classname": "",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "",
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_link_NAYxBp": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "",
+        "banner": "shopify:\/\/shop_images\/table_28.png",
+        "mobbanner": "shopify:\/\/shop_images\/table_28.png"
+      }
+    },
+    "featured_collection_BzFzyz": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Dreamsack",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "dreamsack-stage-1-baby",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_link_YAwjH7": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/collections\/baby-knitted-blanket-baby",
+        "banner": "shopify:\/\/shop_images\/1st_baby_blankettled-1.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/1st_baby_blankettled-1.jpg"
+      }
+    },
+    "featured_collection_pFeXeq": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Blankets",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "baby-knitted-blanket-baby",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_link_jVnxDp": {
+      "type": "image-with-link",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "",
+        "heading_color": "#c69794",
+        "heading_font": 25,
+        "mobheading_font": 10,
+        "imageurl": "shopify:\/\/collections\/rest-nest-baby",
+        "banner": "shopify:\/\/shop_images\/2nd_newone_rest_n_nestUntitled-2.jpg",
+        "mobbanner": "shopify:\/\/shop_images\/2nd_newone_rest_n_nestUntitled-2.jpg"
+      }
+    },
+    "featured_collection_bEWdNX": {
+      "type": "featured-collection",
+      "settings": {
+        "classname": "no-any-class",
+        "title": "Rest and Nest",
+        "heading_size": "h1",
+        "heading_color": "#000000",
+        "heading_font": 25,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "rest-nest-baby",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "show_viewall_below": false,
+        "text_viewall_below": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_link_JrNz9r",
+    "slideshow_QfNAq7",
+    "featured_collection_hjDgda",
+    "slideshow_qWL8dK",
+    "image_with_link_NAYxBp",
+    "featured_collection_BzFzyz",
+    "image_with_link_YAwjH7",
+    "featured_collection_pFeXeq",
+    "image_with_link_jVnxDp",
+    "featured_collection_bEWdNX"
+  ]
+}

@@ -1718,6 +1718,38 @@
     "settings": [
       {
         "type": "header",
+        "content": "Free Product ProgressBar"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_progreebar",
+        "label": "Enable ProgreeBar",
+        "default": true
+      },
+      {
+        "type": "number",
+        "id": "thresoldprice",
+        "label": "PogressBar Thresold Price"
+      },
+      {
+        "type": "text",
+        "id": "after_text",
+        "label": "Congrats Text",
+        "default":"Congrate! you get a free product, please choose the product."
+      },
+      {
+        "type": "text",
+        "id": "linktext",
+        "label": "Link Text",
+        "default":"Click Here"
+      },
+      {
+        "type": "url",
+        "id": "collectionlink",
+        "label": "Link"
+      },
+      {
+        "type": "header",
         "content": "Discount Codes"
       },
       {
@@ -1993,10 +2025,9 @@
         "info": "Heading"
       },
       {
-        "type": "text",
+        "type": "number",
         "id": "threshold_price",
-        "label": "Threshold Price",
-        "default": "2499"
+        "label": "Threshold Price"
       },
       {
         "type": "image_picker",

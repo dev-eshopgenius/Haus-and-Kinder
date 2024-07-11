@@ -99,7 +99,7 @@
               {% assign rem_price = thresold_price | minus: cart_total %}
               
               <div class="drawer__cart-items-wrapper">
-                {% if settings.enable_progreebar %}
+                {% if settings.enable_progreebar and settings.thresoldprice != blank %}
                 <div class="progress-container">
              
                   <div class="before-reachprice-text">

@@ -2477,6 +2477,7 @@ variant-selects#variant-selects- {
 }
 .prod-banner_block img{border-radius: 10px;}
 @media (max-width:749px){
+ 
 }
    .prod-banner_block { padding: 0 1.5rem;}
 
@@ -4277,4 +4278,9 @@ div.banner__content.banner__content--middle-center.page-width.scroll-trigger.ani
 .before-reachprice-text a {
     cursor: pointer;
     text-decoration: underline;
+}
+@media (max-width:749px){
+  .before-reachprice-text{
+    font-size: 12px !important;
+  }
 }

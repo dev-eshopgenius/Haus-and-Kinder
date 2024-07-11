@@ -104,9 +104,13 @@
              
                   <div class="before-reachprice-text">
                   {% if rem_price > 0 %}
-                    You are {{ rem_price | money }} away from free product
+                   <span> You are {{ rem_price | money }} away from free product.</span>
                     {% else %}
-                    {{ settings.after_text }} <a href="{{ settings.collectionlink }}">{{ settings.linktext }}</a>
+                   <span>{{ settings.after_text }} 
+                    <a href="{{ settings.collectionlink }}">
+                      {{ settings.linktext }}
+                    </a>
+                </span>
                   {% endif %}
                 </div>
                  

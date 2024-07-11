@@ -66,7 +66,7 @@ customElements.define("header-menu", HeaderMenu);
 let items = document
   .querySelector(".header__inline-menu")
   .querySelectorAll("details");
-console.log(items);
+
 items.forEach((item) => {
   item.addEventListener("mouseover", () => {
     item.setAttribute("open", true);

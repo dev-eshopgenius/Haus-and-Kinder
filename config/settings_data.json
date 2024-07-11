@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/hauselogo.png",
@@ -152,6 +161,8 @@
     "fg_mgs_pa_2": "",
     "fg_belowtext2": "",
     "cart_color_scheme": "background-1",
+    "thresoldprice": 2000,
+    "collectionlink": "shopify:\/\/collections\/test-collection",
     "copy-discount-code": false,
     "copy-discount-code1": false,
     "copy-discount-code2": true,
@@ -199,7 +210,7 @@
       "100-cotton-single-size-reversible-ac-dohar-blue-grey"
     ],
     "getzeroHeading": "FREE Single Reversible Dohar on orders above Rs.2299",
-    "threshold_price": "2297",
+    "threshold_price": 2297,
     "party_popper_img": "shopify:\/\/shop_images\/6ob.gif",
     "getzeroText": "Add Products worth #price# to get <b>FREE<\/b>",
     "success_msg": "Your product added successfully, proceed for checkout",
